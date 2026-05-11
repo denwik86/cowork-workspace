@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "Viktar",
+      "entityType": "person",
+      "observations": [
+        "Email: denwik86@gmail.com",
+        "Based in the Netherlands",
+        "Trilingual: Russian (native), English (fluent), Dutch (learning)",
+        "Works as a financial analyst / investor",
+        "Owns a ZZP (eenmanszaak) and a BV (BVC Capital)",
+        "Qualifies for startersaftrek in IB 2025 (within first 3 of 5 years)",
+        "Default output language preference: Russian for explanations, Dutch terminology in italics, English for technical M&A vocabulary"
+      ]
+    },
+    {
+      "name": "BVC Capital",
+      "entityType": "legal_entity",
+      "observations": [
+        "Dutch BV (besloten vennootschap)",
+        "Owned by Viktar as DGA",
+        "Files quarterly OB-aangifte (BTW returns)",
+        "Has international supplier exposure (Google Ireland, etc.) — rubriek 4b in BTW"
+      ]
+    },
+    {
+      "name": "Inburgeringsexamen A2",
+      "entityType": "project",
+      "observations": [
+        "Dutch language exam — Lezen, Luisteren, KNM components",
+        "Target exam date: early August 2026",
+        "Study program: 98 days, started 2026-04-24, ends 2026-07-30",
+        "Daily scheduled task runs every morning generating today's lesson card",
+        "Resources used: dutchgrammar.com, oefenen.nl, inburgeren.nl, NOS Journaal in makkelijke taal, Bart de Pau YouTube"
+      ]
+    },
+    {
+      "name": "Animaccord Case (Masha & Bear)",
+      "entityType": "project",
+      "observations": [
+        "M&A investment case for Animaccord — Russian-origin animation IP (Masha and the Bear)",
+        "LTM revenue $25.6M, EBITDA $16.8M (66% margin), net debt ~0",
+        "5-year revenue plateau ($22-27M range)",
+        "211M YouTube subscribers — #1 globally in preschool category",
+        "22% revenue from CIS, rest global",
+        "Cyprus parent structure, Russian creative team",
+        "Seller asking $130M (7.7x LTM EBITDA), deal implied EV $106.7M (6.35x)",
+        "Independent fair value estimated $105-125M (median 6.8x)",
+        "Russia-origin discount ~3x EBITDA multiple",
+        "Co-investor profile: Gaming partner"
+      ]
+    },
+    {
+      "name": "Project Mila",
+      "entityType": "project",
+      "observations": [
+        "B2B + B2C retail/distribution company in Belarus",
+        "Combined revenue ~250M BYN (B2C 150M + B2B 100M)",
+        "20K+ m² warehouses, owns WMS system",
+        "5K+ FTE with 40-80% turnover",
+        "Pitch for AI adoption — opportunity map: WMS AI, shift planning, training, B2B copilot",
+        "Engagement framework: Phase 1 Diagnose, then implementation",
+        "Built as PowerPoint pitch deck with Executive Summary → Company Snapshot → Opportunity Map → Engagement"
+      ]
+    },
+    {
+      "name": "IB 2025 declaration",
+      "entityType": "project",
+      "observations": [
+        "Dutch personal income tax declaration for fiscal year 2025",
+        "Reviewed and corrected accountant's draft — added €40k missing marketingkosten",
+        "Original: bruto winst €80,412, te betalen €22,773",
+        "Corrected: bruto winst €40,412, te betalen €2,885",
+        "Total savings: ~€19,888",
+        "Key effects: tariefsbeperking eliminated, AHK maximized, arbeidskorting recovered",
+        "MKB-winstvrijstelling 12.7% applied",
+        "Qualifies for zelfstandigenaftrek + startersaftrek"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "Viktar",
+      "to": "BVC Capital",
+      "relationType": "owns"
+    },
+    {
+      "from": "Viktar",
+      "to": "Inburgeringsexamen A2",
+      "relationType": "preparing_for"
+    },
+    {
+      "from": "Viktar",
+      "to": "Animaccord Case (Masha & Bear)",
+      "relationType": "advising_on"
+    },
+    {
+      "from": "Viktar",
+      "to": "Project Mila",
+      "relationType": "developed_pitch_for"
+    },
+    {
+      "from": "Viktar",
+      "to": "IB 2025 declaration",
+      "relationType": "filed"
+    },
+    {
+      "from": "BVC Capital",
+      "to": "IB 2025 declaration",
+      "relationType": "context_for"
+    }
+  ]
+}
