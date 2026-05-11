@@ -1,0 +1,14 @@
+# Cowork sync — common ignores
+.DS_Store
+*.swp
+*.tmp
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.local
+.venv/
+dist/
+build/
+.next/
+.cache/
