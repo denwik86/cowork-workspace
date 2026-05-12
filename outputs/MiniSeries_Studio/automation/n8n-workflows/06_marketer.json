@@ -1,0 +1,70 @@
+{
+  "name": "06 — Marketer",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "marketer-seed",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "wh-6",
+      "name": "Webhook /marketer-seed",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "amount": 5,
+        "unit": "minutes"
+      },
+      "id": "wait-6",
+      "name": "Wait T+5 min",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{$env.AGENT_API_URL || 'http://agent-api:4000'}}/marketer/seed-comments",
+        "method": "POST",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.AGENT_API_SHARED_SECRET}}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "jsonBody": "={{ JSON.stringify({ series: $json.body.series, episode: $json.body.episode, script: $json.body.script }) }}",
+        "options": { "timeout": 60000 }
+      },
+      "id": "call-6",
+      "name": "Generate seed comments",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [780, 300]
+    },
+    {
+      "parameters": {
+        "channel": "={{$env.SLACK_APPROVAL_CHANNEL}}",
+        "text": "=Seed comments for {{$json.series}} EP{{$json.episode}}:\n```{{$json.raw}}```\nPaste manually if comment API not yet approved.",
+        "authentication": "accessToken"
+      },
+      "id": "slack-6",
+      "name": "Send to owner",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2,
+      "position": [1080, 300]
+    }
+  ],
+  "connections": {
+    "Webhook /marketer-seed": { "main": [[{ "node": "Wait T+5 min", "type": "main", "index": 0 }]] },
+    "Wait T+5 min": { "main": [[{ "node": "Generate seed comments", "type": "main", "index": 0 }]] },
+    "Generate seed comments": { "main": [[{ "node": "Send to owner", "type": "main", "index": 0 }]] }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "tags": ["studio", "agent"]
+}
