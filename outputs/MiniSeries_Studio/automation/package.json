@@ -1,0 +1,31 @@
+{
+  "name": "vertical-studio-agent-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent API + libraries that power the n8n vertical-studio pipeline",
+  "type": "module",
+  "main": "agent-api/server.js",
+  "scripts": {
+    "start": "node agent-api/server.js",
+    "sora": "node lib/sora_worker.js",
+    "bot": "node bots/approval_bot.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "@slack/bolt": "^3.21.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "form-data": "^4.0.0",
+    "google-auth-library": "^9.14.1",
+    "googleapis": "^144.0.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "pino": "^9.5.0",
+    "playwright": "^1.48.0"
+  }
+}
