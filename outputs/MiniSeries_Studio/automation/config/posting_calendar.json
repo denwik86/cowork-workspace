@@ -1,0 +1,17 @@
+{
+  "timezone": "Europe/Amsterdam",
+  "slots": [
+    { "series": "S1", "platform": "tiktok",    "dow": [2,5],     "time": "19:30" },
+    { "series": "S1", "platform": "youtube",   "dow": [2,5],     "time": "20:00" },
+    { "series": "S1", "platform": "instagram", "dow": [3,6],     "time": "20:30" },
+    { "series": "S2", "platform": "tiktok",    "dow": [1,4],     "time": "07:30" },
+    { "series": "S2", "platform": "youtube",   "dow": [1,4],     "time": "08:00" },
+    { "series": "S2", "platform": "instagram", "dow": [2,5],     "time": "08:00" },
+    { "series": "S3", "platform": "tiktok",    "dow": [3,6],     "time": "21:00" },
+    { "series": "S3", "platform": "youtube",   "dow": [3,6],     "time": "21:30" },
+    { "series": "S3", "platform": "instagram", "dow": [4,0],     "time": "21:00" },
+    { "series": "S4", "platform": "tiktok",    "dow": [0,4],     "time": "22:00" },
+    { "series": "S4", "platform": "youtube",   "dow": [0,4],     "time": "22:30" },
+    { "series": "S4", "platform": "instagram", "dow": [1,5],     "time": "22:00" }
+  ]
+}
