@@ -1,0 +1,35 @@
+{
+  "characters": {
+    "maya": {
+      "series": "S1",
+      "elevenlabs_env": "ELEVENLABS_VOICE_MAYA",
+      "settings": { "stability": 0.45, "similarity_boost": 0.78, "style": 0.20, "use_speaker_boost": true }
+    },
+    "future_maya": {
+      "series": "S1",
+      "elevenlabs_env": "ELEVENLABS_VOICE_FUTURE_MAYA",
+      "settings": { "stability": 0.30, "similarity_boost": 0.65, "style": 0.50, "use_speaker_boost": false }
+    },
+    "ella": {
+      "series": "S2",
+      "elevenlabs_env": "ELEVENLABS_VOICE_ELLA",
+      "settings": { "stability": 0.40, "similarity_boost": 0.80, "style": 0.15, "use_speaker_boost": true }
+    },
+    "kiri": {
+      "series": "S3",
+      "elevenlabs_env": "ELEVENLABS_VOICE_KIRI",
+      "settings": { "stability": 0.50, "similarity_boost": 0.70, "style": 0.30, "use_speaker_boost": true }
+    },
+    "narrator_s4": {
+      "series": "S4",
+      "elevenlabs_env": "ELEVENLABS_VOICE_NARRATOR_S4",
+      "settings": { "stability": 0.50, "similarity_boost": 0.70, "style": 0.10, "use_speaker_boost": false }
+    }
+  },
+  "music_allowlist": [
+    "epidemic/atmosphere/cold-corridor",
+    "epidemic/atmosphere/morning-static",
+    "epidemic/cinematic/neon-rain",
+    "epidemic/ambient/late-night-typing"
+  ]
+}

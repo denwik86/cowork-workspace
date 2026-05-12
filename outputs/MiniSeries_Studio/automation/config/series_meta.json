@@ -1,0 +1,6 @@
+{
+  "S1": { "name": "THE LAST SIGNAL",   "complexity_multiplier": 1.20, "episodes_total": 10, "tone": "sci-fi suspense" },
+  "S2": { "name": "ECHOES",            "complexity_multiplier": 0.90, "episodes_total": 10, "tone": "domestic surreal" },
+  "S3": { "name": "2099",              "complexity_multiplier": 1.10, "episodes_total": 10, "tone": "cyberpunk anthology" },
+  "S4": { "name": "UNSENT",            "complexity_multiplier": 0.70, "episodes_total": 10, "tone": "intimate drama" }
+}
