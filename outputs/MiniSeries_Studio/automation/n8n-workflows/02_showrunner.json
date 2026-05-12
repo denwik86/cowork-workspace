@@ -1,0 +1,66 @@
+{
+  "name": "02 — Showrunner",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "cronExpression", "expression": "0 9 * * 1,2,4" }] }
+      },
+      "id": "cron-2",
+      "name": "Mon/Tue/Thu 09:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const dow = new Date().getDay();\nconst series = ['S1','S2','S3','S4'];\nconst epByDay = { 1: 1, 2: 2, 4: 3 };\nreturn series.map(s => ({json: {series: s, weekNumber: Number(new Date().toISOString().slice(0,4).replace('-','')), episodeNumber: epByDay[dow] || 1}}));"
+      },
+      "id": "split-1",
+      "name": "Plan today's episodes",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{$env.AGENT_API_URL || 'http://agent-api:4000'}}/showrunner/episode",
+        "method": "POST",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.AGENT_API_SHARED_SECRET}}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "jsonBody": "={{ JSON.stringify({ series: $json.series, weekNumber: $json.weekNumber, episodeNumber: $json.episodeNumber, trends: {}, lastAnalytics: {} }) }}",
+        "options": { "timeout": 240000 }
+      },
+      "id": "call-2",
+      "name": "Generate episode",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [780, 300]
+    },
+    {
+      "parameters": {
+        "channel": "={{$env.SLACK_APPROVAL_CHANNEL}}",
+        "text": "=Episode draft ready: *{{$json.episode.series}} EP{{$json.episode.title}}*\nCost so far: ${{$json.cost}}\nApprove production by replying ✅ in the bot.",
+        "authentication": "accessToken"
+      },
+      "id": "slack-2",
+      "name": "Notify owner",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2,
+      "position": [1060, 300]
+    }
+  ],
+  "connections": {
+    "Mon/Tue/Thu 09:00": { "main": [[{ "node": "Plan today's episodes", "type": "main", "index": 0 }]] },
+    "Plan today's episodes": { "main": [[{ "node": "Generate episode", "type": "main", "index": 0 }]] },
+    "Generate episode": { "main": [[{ "node": "Notify owner", "type": "main", "index": 0 }]] }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "tags": ["studio", "agent"]
+}
