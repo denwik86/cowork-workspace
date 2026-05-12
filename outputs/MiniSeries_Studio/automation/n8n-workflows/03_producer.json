@@ -1,0 +1,58 @@
+{
+  "name": "03 — Producer",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "producer-build",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "wh-3",
+      "name": "Webhook /producer-build",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{$env.AGENT_API_URL || 'http://agent-api:4000'}}/producer/build",
+        "method": "POST",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.AGENT_API_SHARED_SECRET}}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "jsonBody": "={{ JSON.stringify({ series: $json.body.series, episodeNumber: $json.body.episodeNumber }) }}",
+        "options": { "timeout": 600000 }
+      },
+      "id": "call-3",
+      "name": "Build episode",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [540, 300]
+    },
+    {
+      "parameters": {
+        "channel": "={{$env.SLACK_APPROVAL_CHANNEL}}",
+        "text": "=:tada: Built {{$json.outFile}} — ready to schedule.",
+        "authentication": "accessToken"
+      },
+      "id": "slack-3",
+      "name": "Notify built",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2,
+      "position": [840, 300]
+    }
+  ],
+  "connections": {
+    "Webhook /producer-build": { "main": [[{ "node": "Build episode", "type": "main", "index": 0 }]] },
+    "Build episode": { "main": [[{ "node": "Notify built", "type": "main", "index": 0 }]] }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "tags": ["studio", "agent"]
+}
