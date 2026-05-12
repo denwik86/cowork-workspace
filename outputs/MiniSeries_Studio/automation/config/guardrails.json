@@ -1,0 +1,16 @@
+{
+  "weeklyBudgetUsd": 40,
+  "monthlyBudgetUsd": 150,
+  "sonnetWeeklyTokens": 100000,
+  "elevenWeeklyChars": 30000,
+  "soraWeeklyClips": 60,
+  "boostMaxUsd": 50,
+  "approvalTimeoutHours": {
+    "weeklyBudget": 24,
+    "paidBoost": 12
+  },
+  "killSwitch": {
+    "fileWatch": "/opt/studio/KILL",
+    "behavior": "When this file exists, all generate/publish workflows refuse to start."
+  }
+}

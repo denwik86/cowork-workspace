@@ -1,0 +1,22 @@
+{
+  "S1": {
+    "tier1": ["miniseries", "shortfilm", "scifi", "scifiseries", "spacehorror"],
+    "tier2": ["aifilm", "aimovie", "soraai", "spacestation", "isolation"],
+    "tier3": ["thelastsignal", "miniserieshorror", "60secondstory"]
+  },
+  "S2": {
+    "tier1": ["miniseries", "shortfilm", "psychologicalthriller", "memorystory"],
+    "tier2": ["aifilm", "soraai", "domestichorror", "looper", "groundhogday"],
+    "tier3": ["echoesseries", "wakeupstory"]
+  },
+  "S3": {
+    "tier1": ["cyberpunk", "scifi", "anthology", "futureworld"],
+    "tier2": ["soraai", "aifilm", "neonnoir", "blame", "ghostintheshell"],
+    "tier3": ["2099series", "newlagos7", "cyberpunkminiseries"]
+  },
+  "S4": {
+    "tier1": ["miniseries", "drama", "shortfilm", "diary"],
+    "tier2": ["aifilm", "soraai", "loveletter", "unsentmessage"],
+    "tier3": ["unsentseries", "themessageinevershouldhavewritten"]
+  }
+}
