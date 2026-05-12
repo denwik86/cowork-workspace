@@ -1,0 +1,92 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: studio_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: n8n
+      POSTGRES_PASSWORD: n8n
+      POSTGRES_DB: n8n
+    volumes:
+      - ./_data/postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U n8n"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: studio_n8n
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "5678:5678"
+    environment:
+      DB_TYPE: postgresdb
+      DB_POSTGRESDB_HOST: postgres
+      DB_POSTGRESDB_PORT: 5432
+      DB_POSTGRESDB_DATABASE: n8n
+      DB_POSTGRESDB_USER: n8n
+      DB_POSTGRESDB_PASSWORD: n8n
+      N8N_BASIC_AUTH_ACTIVE: "true"
+      N8N_BASIC_AUTH_USER: ${N8N_BASIC_AUTH_USER}
+      N8N_BASIC_AUTH_PASSWORD: ${N8N_BASIC_AUTH_PASSWORD}
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
+      N8N_HOST: ${N8N_HOST}
+      WEBHOOK_URL: ${WEBHOOK_URL}
+      GENERIC_TIMEZONE: ${TIMEZONE}
+      TZ: ${TIMEZONE}
+      EXECUTIONS_DATA_PRUNE: "true"
+      EXECUTIONS_DATA_MAX_AGE: 168
+    volumes:
+      - ./_data/n8n:/home/node/.n8n
+      - ./n8n-workflows:/import:ro
+
+  agent-api:
+    build: ./agent-api
+    container_name: studio_agent_api
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./lib:/app/lib:ro
+      - ./prompts:/app/prompts:ro
+      - ./config:/app/config:ro
+      - ./media:/app/media
+      - ./out:/app/out
+      - ./secrets:/app/secrets:ro
+      - ./scripts:/app/scripts:ro
+    depends_on:
+      - postgres
+
+  sora-worker:
+    build: ./agent-api
+    container_name: studio_sora_worker
+    restart: unless-stopped
+    env_file: .env
+    command: ["node", "/app/lib/sora_worker.js"]
+    volumes:
+      - ./lib:/app/lib:ro
+      - ./config:/app/config:ro
+      - ./media:/app/media
+      - ./_data/sora_state:/app/state
+    shm_size: "2gb"             # Playwright needs shared memory
+
+  approval-bot:
+    build: ./agent-api
+    container_name: studio_approval_bot
+    restart: unless-stopped
+    env_file: .env
+    command: ["node", "/app/bots/approval_bot.js"]
+    volumes:
+      - ./bots:/app/bots:ro
+      - ./lib:/app/lib:ro
+      - ./config:/app/config:ro
+    ports:
+      - "4100:4100"
