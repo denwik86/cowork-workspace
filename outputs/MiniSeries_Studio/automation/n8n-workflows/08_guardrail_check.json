@@ -1,0 +1,73 @@
+{
+  "name": "08 — Guardrail Watchdog",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "cronExpression", "expression": "0 */6 * * *" }] }
+      },
+      "id": "cron-8",
+      "name": "Every 6 h",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{$env.AGENT_API_URL || 'http://agent-api:4000'}}/guardrails/check",
+        "method": "POST",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.AGENT_API_SHARED_SECRET}}" }
+          ]
+        },
+        "sendBody": true,
+        "jsonBody": "={}"
+      },
+      "id": "call-8",
+      "name": "Check spend",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [520, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "leftValue": "={{$json.head.weekUsed}}",
+              "rightValue": "={{$json.caps.weeklyBudgetUsd * 0.8}}",
+              "operator": { "type": "number", "operation": "gt" }
+            }
+          ]
+        }
+      },
+      "id": "if-8",
+      "name": ">80% weekly cap?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [800, 300]
+    },
+    {
+      "parameters": {
+        "channel": "={{$env.SLACK_APPROVAL_CHANNEL}}",
+        "text": "=:rotating_light: Weekly spend ${{$json.head.weekUsed}} ≥ 80% of cap ${{$json.caps.weeklyBudgetUsd}}.",
+        "authentication": "accessToken"
+      },
+      "id": "slack-8",
+      "name": "Warn owner",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2,
+      "position": [1080, 200]
+    }
+  ],
+  "connections": {
+    "Every 6 h": { "main": [[{ "node": "Check spend", "type": "main", "index": 0 }]] },
+    "Check spend": { "main": [[{ "node": ">80% weekly cap?", "type": "main", "index": 0 }]] },
+    ">80% weekly cap?": { "main": [[{ "node": "Warn owner", "type": "main", "index": 0 }], []] }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "tags": ["studio", "agent"]
+}
