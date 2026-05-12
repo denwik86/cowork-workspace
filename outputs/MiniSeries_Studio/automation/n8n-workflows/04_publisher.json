@@ -1,0 +1,75 @@
+{
+  "name": "04 — Publisher",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "cronExpression", "expression": "*/15 * * * *" }] }
+      },
+      "id": "cron-4",
+      "name": "Every 15 min",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Read posting calendar, find slots that fire in the next 15 min, queue posts.\nconst fs = require('fs');\nconst cal = JSON.parse(fs.readFileSync('/app/config/posting_calendar.json','utf8'));\nconst now = new Date();\nconst out = [];\nfor (const slot of cal.slots) {\n  if (!slot.dow.includes(now.getDay())) continue;\n  const [hh,mm] = slot.time.split(':').map(Number);\n  const slotMs = new Date(now); slotMs.setHours(hh,mm,0,0);\n  const delta = slotMs.getTime() - now.getTime();\n  if (delta >= 0 && delta < 15*60*1000) out.push({json: slot});\n}\nreturn out;"
+      },
+      "id": "split-4",
+      "name": "Match slots due now",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [520, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{$env.AGENT_API_URL || 'http://agent-api:4000'}}/publisher/post",
+        "method": "POST",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.AGENT_API_SHARED_SECRET}}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "jsonBody": "={{ JSON.stringify({ platform: $json.platform, series: $json.series, episode: $json.episode || 1, videoPath: `/app/out/${$json.series}_EP${String($json.episode||1).padStart(2,'0')}.mp4`, title: 'placeholder', description: 'placeholder', hashtags: [] }) }}",
+        "options": { "timeout": 600000 }
+      },
+      "id": "call-4",
+      "name": "Publish",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [820, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{$env.AGENT_API_URL || 'http://agent-api:4000'}}/marketer/seed-comments",
+        "method": "POST",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.AGENT_API_SHARED_SECRET}}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "jsonBody": "={{ JSON.stringify({ series: $json.result?.series || $json.series, episode: $json.result?.episode || $json.episode, script: 'TBD' }) }}",
+        "options": { "timeout": 60000 }
+      },
+      "id": "call-4b",
+      "name": "Queue seed comments (T+5 min)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1100, 300]
+    }
+  ],
+  "connections": {
+    "Every 15 min": { "main": [[{ "node": "Match slots due now", "type": "main", "index": 0 }]] },
+    "Match slots due now": { "main": [[{ "node": "Publish", "type": "main", "index": 0 }]] },
+    "Publish": { "main": [[{ "node": "Queue seed comments (T+5 min)", "type": "main", "index": 0 }]] }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "tags": ["studio", "agent"]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "05 — Analyst",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "cronExpression", "expression": "0 8,20 * * *" }] }
+      },
+      "id": "cron-5",
+      "name": "Twice daily",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "url": "={{$env.AGENT_API_URL || 'http://agent-api:4000'}}/analyst/refresh",
+        "method": "POST",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.AGENT_API_SHARED_SECRET}}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "jsonBody": "={}",
+        "options": { "timeout": 300000 }
+      },
+      "id": "call-5",
+      "name": "Refresh metrics",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [540, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const alerts = $json.alerts || [];\nreturn alerts.map(a => ({ json: a }));"
+      },
+      "id": "split-5",
+      "name": "Fan out alerts",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [800, 300]
+    },
+    {
+      "parameters": {
+        "channel": "={{$env.SLACK_APPROVAL_CHANNEL}}",
+        "text": "=:warning: *{{$json.kind}}* {{$json.series}} EP{{$json.episode}} ({{$json.platform}}) — views {{$json.views || 'n/a'}}, retention {{$json.retention || 'n/a'}}",
+        "authentication": "accessToken"
+      },
+      "id": "slack-5",
+      "name": "Post alert",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2,
+      "position": [1080, 300]
+    }
+  ],
+  "connections": {
+    "Twice daily": { "main": [[{ "node": "Refresh metrics", "type": "main", "index": 0 }]] },
+    "Refresh metrics": { "main": [[{ "node": "Fan out alerts", "type": "main", "index": 0 }]] },
+    "Fan out alerts": { "main": [[{ "node": "Post alert", "type": "main", "index": 0 }]] }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "tags": ["studio", "agent"]
+}
