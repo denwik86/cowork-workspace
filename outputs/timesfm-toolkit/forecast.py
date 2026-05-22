@@ -86,19 +86,20 @@ def load_model():
     device = _pick_device()
     print(f"[forecast] device={device}")
 
-    # API timesfm 1.3.x:
+    # API timesfm 1.3.x — единый класс TimesFm, конфигурируется через hparams.
+    # Параметры ниже — официально рекомендованные для TimesFM 2.0 500M.
     hparams = timesfm.TimesFmHparams(
         backend="gpu" if device != "cpu" else "cpu",
         per_core_batch_size=32,
-        horizon_len=128,            # внутренний горизонт; авторегрессия достроит дальше
-        context_len=512,            # сколько истории смотреть
-        num_layers=50,
-        use_positional_embedding=False,
+        horizon_len=128,                # внутренний горизонт; авторегрессия достроит дальше
+        context_len=512,                # сколько истории смотреть
+        num_layers=50,                  # 2.0 model: 50 слоёв (1.0 имела 20)
+        use_positional_embedding=False, # 2.0 model не использует позиционные эмбеддинги
     )
     checkpoint = timesfm.TimesFmCheckpoint(
         huggingface_repo_id="google/timesfm-2.0-500m-pytorch"
     )
-    model = timesfm.TimesFm_2p0_500m_torch(hparams=hparams, checkpoint=checkpoint)
+    model = timesfm.TimesFm(hparams=hparams, checkpoint=checkpoint)
     return model
 
 

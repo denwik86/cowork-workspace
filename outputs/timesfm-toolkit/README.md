@@ -113,7 +113,7 @@ Excel-файл, один лист на «пачку» рядов одинако�
 | `python3.10/3.11 not found`                              | `brew install python@3.11`, затем перезапустить `install.sh`        |
 | `huggingface_hub` ругается на авторизацию                | Не нужен токен — модель публичная. Проверьте интернет и time-out.   |
 | Очень долго на CPU                                       | Ожидаемо: 500M модель. Используйте MPS (Apple Silicon) или GPU.     |
-| `ImportError: cannot import name 'TimesFm_2p0_500m_torch'` | TimesFM версии < 1.3.0. Сделайте `pip install -U timesfm==1.3.0`.   |
+| `ImportError: cannot import name 'TimesFm'`              | TimesFM версии < 1.3.0. Сделайте `pip install -U timesfm==1.3.0`.   |
 | Прогноз «прямой линией»                                  | Мало истории. Дайте хотя бы 36 точек для месячных, 200 для дневных. |
 
 ## Лицензии и оговорки
