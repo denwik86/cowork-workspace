@@ -304,7 +304,7 @@ const WORDS = [
   ["het broodje","булочка","eda"],
   ["het stokbrood","багет","eda"],
   ["de krentenbol","булочка с изюмом","eda"],
-  ["de kaas","сыр (нет в списке отдельно)","eda"],
+  ["de kaas","сыр","eda"],
   ["de ham","ветчина","eda"],
   ["de vleeswaren","мясная нарезка","eda"],
   ["het vlees","мясо","eda"],
