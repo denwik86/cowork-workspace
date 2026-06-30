@@ -320,7 +320,7 @@ const WORDS = [
   ["de kipfilet","куриное филе","eda"],
   ["de kippenbout","куриная голень","eda"],
   ["de kippenpoot","куриная ножка","eda"],
-  ["het ei (eieren)","яйцо (нет в списке)","eda"],
+  ["het ei (eieren)","яйцо","eda"],
   ["de groente","овощи","eda"],
   ["de aardappel","картофель","eda"],
   ["de tomaat (tomaten)","помидор","eda"],
