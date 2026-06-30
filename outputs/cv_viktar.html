@@ -5,9 +5,9 @@
 <style>
   @page {
     size: A4;
-    margin: 14mm 0 14mm 0;
+    margin: 15mm 0 14mm 0;
     @bottom-center {
-      content: "Виктор Денисевич  ·  партнёр-практик  ·  denwik86@gmail.com";
+      content: "Виктор Денисевич  ·  denwik86@gmail.com";
       font-family: 'Lato'; font-size: 7pt; color: #9aa0a6;
     }
   }
@@ -18,7 +18,6 @@
     --ink: #16202e;
     --ink2: #2b3138;
     --gold: #b5853a;
-    --gold-soft: #f3e9da;
     --muted: #707880;
     --line: #e3ddd3;
     --paper: #ffffff;
@@ -28,40 +27,33 @@
   .wrap { padding: 0 16mm; }
 
   /* ---------- HEADER ---------- */
-  .header { padding: 0 16mm 10px 16mm; }
+  .header { padding: 0 16mm 0 16mm; }
   .name {
     font-family: 'Lora', serif; font-weight: 700;
-    font-size: 30pt; letter-spacing: .5px; color: var(--ink);
-    line-height: 1.05;
-  }
-  .role {
-    font-size: 10.5pt; color: var(--gold); font-weight: 700;
-    text-transform: uppercase; letter-spacing: 1.8px; margin-top: 8px;
-  }
-  .tagline {
-    font-family: 'Lora', serif; font-size: 12pt; color: var(--ink2);
-    font-style: italic; margin-top: 10px; max-width: 165mm; line-height: 1.45;
+    font-size: 29pt; letter-spacing: .5px; color: var(--ink); line-height: 1.05;
   }
   .contacts {
-    font-size: 8.5pt; color: var(--muted); margin-top: 12px; letter-spacing: .2px;
+    font-size: 9pt; color: var(--muted); margin-top: 9px; letter-spacing: .2px;
   }
   .contacts b { color: var(--ink2); font-weight: 700; }
+  .summary {
+    font-size: 9.6pt; color: var(--ink2); margin-top: 11px; max-width: 172mm; line-height: 1.55;
+  }
+  .summary b { color: var(--ink); }
 
   /* ---------- METRIC STRIP ---------- */
   .metrics {
-    display: flex; margin-top: 16px;
+    display: flex; margin-top: 15px;
     border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line);
   }
-  .metric { flex: 1; padding: 11px 6px 11px 0; }
+  .metric { flex: 1; padding: 10px 6px 10px 0; }
   .metric + .metric { padding-left: 14px; border-left: 1px solid var(--line); }
-  .metric .num { font-family: 'Lora', serif; font-size: 17pt; font-weight: 700; color: var(--gold); line-height: 1; }
-  .metric .lbl { font-size: 7.3pt; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; margin-top: 5px; line-height: 1.3; }
+  .metric .num { font-family: 'Lora', serif; font-size: 16pt; font-weight: 700; color: var(--gold); line-height: 1; }
+  .metric .lbl { font-size: 7.2pt; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; margin-top: 5px; line-height: 1.3; }
 
   /* ---------- SECTION ---------- */
-  .section { margin-top: 20px; }
-  .sec-head {
-    display: flex; align-items: baseline; gap: 10px; margin-bottom: 11px;
-  }
+  .section { margin-top: 19px; }
+  .sec-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 11px; }
   .sec-head h2 {
     font-family: 'Lato'; font-size: 9pt; font-weight: 800; color: var(--ink);
     text-transform: uppercase; letter-spacing: 2px; white-space: nowrap;
@@ -69,37 +61,28 @@
   .sec-head .rule { flex: 1; height: 1px; background: var(--line); }
   .sec-head .tag { font-size: 7.5pt; color: var(--gold); font-weight: 700; letter-spacing: .5px; }
 
-  .lead { font-size: 10pt; line-height: 1.6; color: var(--ink2); }
+  .lead { font-size: 9.8pt; line-height: 1.6; color: var(--ink2); }
   .lead b { color: var(--ink); }
 
-  /* ---------- POSITIONING ---------- */
-  .pos {
-    background: var(--soft); border-left: 3px solid var(--gold);
-    padding: 14px 16px; margin-top: 2px;
-  }
-  .pos p { font-size: 9.7pt; line-height: 1.6; }
-  .pos p + p { margin-top: 8px; }
-  .pos b { color: var(--ink); }
+  /* ---------- TIMELINE (опыт) ---------- */
+  .tl { margin-top: 2px; }
+  .tl-row { display: flex; gap: 16px; padding: 9px 0; border-bottom: 1px dotted var(--line); }
+  .tl-row:last-child { border-bottom: none; }
+  .tl-yr { font-family: 'Lora', serif; font-weight: 700; color: var(--gold); font-size: 9.5pt; width: 86px; flex-shrink: 0; }
+  .tl-body b { color: var(--ink); font-size: 10pt; }
+  .tl-body .sub { color: var(--ink2); font-size: 9pt; display: block; margin-top: 2px; line-height: 1.45; }
+  .tl-body .sub2 { color: var(--muted); font-size: 8.7pt; display: block; margin-top: 4px; line-height: 1.45; }
+  .tl-body .sub2 b { color: var(--ink2); }
 
-  /* ---------- VALUE PILLARS ---------- */
-  .pillars { display: flex; flex-wrap: wrap; gap: 0; margin-top: 4px; }
-  .pillar {
-    width: 50%; padding: 9px 16px 9px 0; display: flex; gap: 10px;
-  }
+  /* ---------- TASK PILLARS ---------- */
+  .pillars { display: flex; flex-wrap: wrap; gap: 0; margin-top: 2px; }
+  .pillar { width: 50%; padding: 8px 16px 8px 0; display: flex; gap: 11px; }
   .pillar .pn {
     font-family: 'Lora', serif; font-weight: 700; color: var(--gold);
-    font-size: 13pt; line-height: 1; flex-shrink: 0; width: 22px;
+    font-size: 12pt; line-height: 1; flex-shrink: 0; width: 22px;
   }
-  .pillar .pt b { color: var(--ink); font-size: 9.3pt; }
+  .pillar .pt b { color: var(--ink); font-size: 9.4pt; }
   .pillar .pt span { display: block; font-size: 8.5pt; color: var(--muted); line-height: 1.4; margin-top: 2px; }
-
-  /* ---------- TIMELINE ---------- */
-  .tl { margin-top: 2px; }
-  .tl-row { display: flex; gap: 14px; padding: 7px 0; border-bottom: 1px dotted var(--line); }
-  .tl-row:last-child { border-bottom: none; }
-  .tl-yr { font-family: 'Lora', serif; font-weight: 700; color: var(--gold); font-size: 9.5pt; width: 78px; flex-shrink: 0; }
-  .tl-body b { color: var(--ink); font-size: 9.5pt; }
-  .tl-body span { color: var(--muted); font-size: 8.7pt; }
 
   /* ---------- CASE CARDS ---------- */
   .cases { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 2px; }
@@ -122,22 +105,23 @@
   .case .cmetric .to { font-family: 'Lora', serif; font-size: 12pt; font-weight: 700; color: var(--gold); line-height: 1; }
   .case .cmetric .un { font-size: 7.5pt; color: var(--muted); }
 
-  /* ---------- NOW / PROJECTS ---------- */
-  .now { display: flex; gap: 12px; margin-top: 2px; }
-  .now-card { flex: 1; background: var(--ink); color: #f1ece3; padding: 13px 15px; }
-  .now-card .nh { font-family: 'Lora', serif; font-weight: 700; font-size: 11pt; color: #fff; }
-  .now-card .nbadge { font-size: 7pt; color: var(--gold); text-transform: uppercase; letter-spacing: 1px; font-weight: 700; margin-bottom: 5px; }
-  .now-card p { font-size: 8.7pt; line-height: 1.5; color: #cdc7bb; margin-top: 4px; }
+  /* ---------- BOARD LIST ---------- */
+  .board { display: flex; flex-wrap: wrap; gap: 7px 8px; margin-top: 2px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--soft);
+    padding: 5px 11px; font-size: 8.8pt; color: var(--ink2);
+  }
+  .chip b { color: var(--ink); font-weight: 700; }
+  .chip span { color: var(--muted); font-size: 7.8pt; }
 
-  /* ---------- FOOTER FACTS ---------- */
-  .facts { display: flex; gap: 0; margin-top: 4px; }
-  .fact { flex: 1; padding: 4px 14px 4px 0; }
+  /* ---------- FACTS ---------- */
+  .facts { display: flex; gap: 0; margin-top: 2px; }
+  .fact { flex: 1; padding: 2px 14px 2px 0; }
   .fact + .fact { padding-left: 14px; border-left: 1px solid var(--line); }
-  .fact .fh { font-size: 7.5pt; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); font-weight: 800; margin-bottom: 5px; }
-  .fact .fb { font-size: 8.7pt; color: var(--ink2); line-height: 1.55; }
+  .fact .fh { font-size: 7.5pt; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); font-weight: 800; margin-bottom: 6px; }
+  .fact .fb { font-size: 8.8pt; color: var(--ink2); line-height: 1.55; }
   .fact .fb b { color: var(--ink); }
-
-  .pagebreak { page-break-before: always; }
+  .fact .fb .ed { display: block; margin-bottom: 6px; }
 </style>
 </head>
 <body>
@@ -145,14 +129,15 @@
 <!-- ================= HEADER ================= -->
 <div class="header">
   <div class="name">Виктор Денисевич</div>
-  <div class="role">Партнёр прямых инвестиций · Эдвайзер-практик собственникам</div>
-  <div class="tagline">«Сажусь рядом с собственником и прохожу путь вместе: от честного ответа на вопрос „куда и зачем мы идём“ — до выхода с премией к рынку. Практика, а не теория.»</div>
   <div class="contacts">
-    <b>Амстердам, Нидерланды</b> &nbsp;·&nbsp; denwik86@gmail.com &nbsp;·&nbsp; +31 617 471 410 &nbsp;·&nbsp; DipIFR · ACCA &nbsp;·&nbsp; RU/BY native · EN fluent · UA/PL
+    <b>Амстердам, Нидерланды</b> &nbsp;·&nbsp; denwik86@gmail.com &nbsp;·&nbsp; +31 617 471 410 &nbsp;·&nbsp; DipIFR · ACCA &nbsp;·&nbsp; RU / BY · EN · UA / PL
+  </div>
+  <div class="summary">
+    14 лет в прямых инвестициях: <b>поиск компаний, сделки, работа в советах директоров, создание стоимости и выходы</b>. Прошёл путь от аналитика до партнёра фонда. С 2026 года — собственные проекты.
   </div>
 
   <div class="metrics">
-    <div class="metric"><div class="num">$100M+</div><div class="lbl">проинвестировано<br>лично проведённые сделки</div></div>
+    <div class="metric"><div class="num">$100M+</div><div class="lbl">проинвестировано<br>в проведённых сделках</div></div>
     <div class="metric"><div class="num">16</div><div class="lbl">портфельных<br>компаний</div></div>
     <div class="metric"><div class="num">2</div><div class="lbl">единорога<br>в портфеле</div></div>
     <div class="metric"><div class="num">14&nbsp;лет</div><div class="lbl">в фонде:<br>аналитик → партнёр</div></div>
@@ -162,41 +147,48 @@
 
 <div class="wrap">
 
-<!-- ================= POSITIONING ================= -->
+<!-- ================= ОПЫТ / ТРАЕКТОРИЯ ================= -->
 <div class="section">
-  <div class="sec-head"><h2>Кто я и чем полезен</h2><div class="rule"></div><div class="tag">для собственника</div></div>
-  <div class="pos">
-    <p>14 лет внутри фонда прямых инвестиций я делал ровно одно: <b>находил недооценённые компании, заходил по хорошей цене, убирал дисконты и помогал бизнесу вырасти — чтобы через 5–7 лет продать дороже</b>. Не со стороны, а в совете директоров и иногда в кресле и.о. CEO.</p>
-    <p>Сильнее всего я там, где у собственника крепкий бизнес, но нет ясности — <b>чего он на самом деле хочет, куда движется компания и что с этим делать дальше</b>. Помогаю собрать эту картину, перевести её в план и пройти его руками: корпоративное управление, стратегия, защита от чёрных лебедей, поиск новых точек роста и подготовка к выходу или привлечению капитала.</p>
-  </div>
-</div>
-
-<!-- ================= METHOD PILLARS ================= -->
-<div class="section">
-  <div class="sec-head"><h2>Как я работаю</h2><div class="rule"></div><div class="tag">метод 100 дней</div></div>
-  <div class="pillars">
-    <div class="pillar"><div class="pn">01</div><div class="pt"><b>Диагностика и 100-дневный план</b><span>Каждая компания в портфеле проходила его: чётко зафиксировать, куда идём, как, кто и что для этого нужно.</span></div></div>
-    <div class="pillar"><div class="pn">02</div><div class="pt"><b>Корпоративное управление</b><span>Выстраивание совета директоров, прозрачной отчётности и регулярных операционных ревью с CEO/CFO.</span></div></div>
-    <div class="pillar"><div class="pn">03</div><div class="pt"><b>Стратегия и монетизация</b><span>Смена бизнес-модели: переход с «платы за листинг» на вход в транзакцию — рост ARPU в сотни раз.</span></div></div>
-    <div class="pillar"><div class="pn">04</div><div class="pt"><b>Чёрные лебеди и новые возможности</b><span>Сценарии, защита от рисков и поиск точек роста рядом с ядром бизнеса — финтех-обвязка, новые рынки.</span></div></div>
-  </div>
-</div>
-
-<!-- ================= TIMELINE ================= -->
-<div class="section">
-  <div class="sec-head"><h2>Траектория</h2><div class="rule"></div><div class="tag">от математики к капиталу</div></div>
+  <div class="sec-head"><h2>Опыт</h2><div class="rule"></div></div>
   <div class="tl">
-    <div class="tl-row"><div class="tl-yr">2004–2010</div><div class="tl-body"><b>ФПМИ БГУ — актуарная математика.</b> <span>Теория вероятностей и матстатистика. Победитель республиканских олимпиад по математике.</span></div></div>
-    <div class="tl-row"><div class="tl-yr">2008–2012</div><div class="tl-body"><b>Аудитор.</b> <span>Финансовый аудит и отчётность по МСФО. Квалификации DipIFR и ACCA.</span></div></div>
-    <div class="tl-row"><div class="tl-yr">2012–2026</div><div class="tl-body"><b>Фонд прямых инвестиций: путь от аналитика до партнёра.</b> <span>Поиск компаний, сделки, советы директоров, создание стоимости и выходы. 11 советов директоров, и.о. CEO в кризисных ситуациях.</span></div></div>
-    <div class="tl-row"><div class="tl-yr">2020–2022</div><div class="tl-body"><b>Переезд в Литву</b><span>, далее с 2022 — Нидерланды, Амстердам.</span></div></div>
-    <div class="tl-row"><div class="tl-yr">2024–наст.</div><div class="tl-body"><b>Два собственных проекта.</b> <span>Серч-фонд по покупке Tier-1 бренда и AI-проект в бухгалтерских услугах (Польша, Италия).</span></div></div>
+    <div class="tl-row">
+      <div class="tl-yr">2008–2012</div>
+      <div class="tl-body"><b>Аудитор</b>
+        <span class="sub">Финансовый аудит и отчётность по МСФО. Квалификации DipIFR и ACCA.</span>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-yr">2012–2026</div>
+      <div class="tl-body"><b>Фонд прямых инвестиций — от аналитика до партнёра</b>
+        <span class="sub">Поиск компаний, сделки по хорошей цене, работа в советах директоров, создание стоимости и выходы через 5–7 лет. 11 советов директоров, и.о. CEO в кризисных ситуациях, построение инвесткоманды.</span>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-yr">2026 → наст.</div>
+      <div class="tl-body"><b>Собственные проекты</b>
+        <span class="sub2"><b>Серч-фонд</b> — создаю search fund для покупки Tier-1 мультипликационного бренда: поиск, структурирование сделки и управление стоимостью.</span>
+        <span class="sub2"><b>AI в бухгалтерии (Польша, Италия)</b> — кофаундер проекта по AI-агентам в оказании бухгалтерских услуг.</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= ЗАДАЧИ ПОСЛЕ ПОКУПКИ ================= -->
+<div class="section">
+  <div class="sec-head"><h2>Чем занимался в фонде</h2><div class="rule"></div><div class="tag">основные задачи после покупки компании</div></div>
+  <div class="pillars">
+    <div class="pillar"><div class="pn">01</div><div class="pt"><b>Запуск 100-дневного плана</b><span>Через него проходила каждая компания: чётко зафиксировать, куда идём, как, кто и что для этого нужен.</span></div></div>
+    <div class="pillar"><div class="pn">02</div><div class="pt"><b>Постановка корпоративного управления</b><span>Совет директоров, прозрачная отчётность, регулярные операционные ревью с CEO и CFO.</span></div></div>
+    <div class="pillar"><div class="pn">03</div><div class="pt"><b>Стратегия и развитие монетизации</b><span>Смена бизнес-модели: переход с платы за листинг на вход в транзакцию, рост ARPU и юнит-экономики.</span></div></div>
+    <div class="pillar"><div class="pn">04</div><div class="pt"><b>Управление рисками и чёрные лебеди</b><span>Сценарное планирование и защита бизнеса от системных рисков.</span></div></div>
+    <div class="pillar"><div class="pn">05</div><div class="pt"><b>Новые возможности роста</b><span>Поиск точек роста рядом с ядром: новые рынки, продукты, финтех-обвязка.</span></div></div>
+    <div class="pillar"><div class="pn">06</div><div class="pt"><b>Подготовка к выходу и продажа</b><span>Убрать дисконты, упаковать бизнес и продать дороже через 5–7 лет.</span></div></div>
   </div>
 </div>
 
 <!-- ================= CASES ================= -->
 <div class="section">
-  <div class="sec-head"><h2>Избранные кейсы</h2><div class="rule"></div><div class="tag">цифры как доказательство</div></div>
+  <div class="sec-head"><h2>Избранные кейсы</h2><div class="rule"></div></div>
   <div class="cases">
 
     <div class="case">
@@ -216,7 +208,7 @@
     <div class="case">
       <div class="ct"><div class="cn">av.by — автолизинг</div><div class="cs">Классифайд · лизинг</div></div>
       <div class="crole">Член совета директоров</div>
-      <div class="cd">Модель Kaspi / Kolesa: классифайд + «карманная» лизинговая компания. За 3 года — <b>лидер автолизинга</b>, &gt;700 машин в месяц в лизинг онлайн. Вход в транзакцию поднял доходность с объявления.</div>
+      <div class="cd">Модель Kaspi / Kolesa: классифайд + «карманная» лизинговая компания. За 3 года — <b>лидер автолизинга</b>, &gt;700 машин в месяц в лизинг онлайн.</div>
       <div class="cmetric"><div class="from">$2 с объявления</div><div class="arr">→</div><div class="to">$800</div><div class="un">доходность</div></div>
     </div>
 
@@ -244,44 +236,50 @@
   </div>
 </div>
 
-<!-- ================= CLASSIFIEDS PORTFOLIO ================= -->
+<!-- ================= CLASSIFIEDS ================= -->
 <div class="section">
   <div class="sec-head"><h2>Классифайды: один плейбук — много рынков</h2><div class="rule"></div></div>
-  <div class="lead">Дженерал-, авто- и real-estate-классифайды, которые стали <b>лидерами на своих рынках</b>: Кипр, Таджикистан, Ямайка, Тринидад, Беларусь, Монголия и другие. Везде — <b>один и тот же приём: переход с платы за объявления на частичный вход в транзакцию</b>, что кратно поднимает доходность с каждого пользователя.</div>
+  <div class="lead">Дженерал-, авто- и real-estate-классифайды, ставшие <b>лидерами на своих рынках</b>: Кипр, Таджикистан, Ямайка, Тринидад, Беларусь, Монголия и другие. Везде — <b>один приём: переход с платы за объявления на частичный вход в транзакцию</b>, что кратно поднимает доходность с пользователя.</div>
 </div>
 
-<!-- ================= NOW ================= -->
-<div class="section" style="break-before: page; padding-top: 4px;">
-  <div class="sec-head"><h2>Чем занят сейчас</h2><div class="rule"></div><div class="tag">2024 → наст.</div></div>
-  <div class="now">
-    <div class="now-card">
-      <div class="nbadge">Серч-фонд</div>
-      <div class="nh">Покупка Tier-1 бренда</div>
-      <p>Создаю search fund для приобретения мультипликационного бренда первого эшелона — поиск, структурирование сделки и последующее управление стоимостью.</p>
-    </div>
-    <div class="now-card">
-      <div class="nbadge">AI · Польша, Италия</div>
-      <div class="nh">AI-агенты в бухгалтерии</div>
-      <p>Кофаундер проекта по AI-ролям (агентам) в оказании бухгалтерских услуг. Применяю AI как операционный рычаг, а не как эксперимент.</p>
-    </div>
+<!-- ================= BOARD ================= -->
+<div class="section">
+  <div class="sec-head"><h2>Советы директоров</h2><div class="rule"></div><div class="tag">2014 → наст.</div></div>
+  <div class="board">
+    <div class="chip"><b>Mediacube</b> <span>финтех</span></div>
+    <div class="chip"><b>Garna</b> <span>payroll</span></div>
+    <div class="chip"><b>av.by</b> <span>авто-классифайд</span></div>
+    <div class="chip"><b>МТБанк</b> <span>набсовет</span></div>
+    <div class="chip"><b>21vek.by</b> <span>e-commerce</span></div>
+    <div class="chip"><b>realt.by</b> <span>и.о. CEO</span></div>
+    <div class="chip"><b>lun.ua</b> <span>real estate UA</span></div>
+    <div class="chip"><b>flatfy.com</b> <span>real estate</span></div>
+    <div class="chip"><b>bazaraki.cy</b> <span>классифайд, Кипр</span></div>
+    <div class="chip"><b>Larixon</b> <span>classifieds group</span></div>
+    <div class="chip"><b>Zing Coach</b> <span>AI fitness</span></div>
+    <div class="chip"><b>Placy</b> <span>AI real estate</span></div>
+    <div class="chip"><b>OHI-S</b> <span>edtech</span></div>
   </div>
 </div>
 
-<!-- ================= FOOTER FACTS ================= -->
+<!-- ================= EDUCATION / FACTS ================= -->
 <div class="section">
-  <div class="sec-head"><h2>Коротко</h2><div class="rule"></div></div>
+  <div class="sec-head"><h2>Образование и квалификации</h2><div class="rule"></div></div>
   <div class="facts">
     <div class="fact">
       <div class="fh">Образование</div>
-      <div class="fb"><b>ФПМИ БГУ</b> — актуарная математика (теорвер и матстатистика). Победитель республиканских олимпиад по математике. <b>DipIFR, ACCA</b>.</div>
+      <div class="fb">
+        <span class="ed"><b>БГУ, ФПМИ</b> — BSc прикладная математика и информатика (теорвер и матстатистика, актуарная математика) и MSc Finance. 2004–2010.</span>
+        <span class="ed"><b>London School of Business and Finance</b> — Finance. 2014–2015.</span>
+      </div>
+    </div>
+    <div class="fact">
+      <div class="fh">Квалификации</div>
+      <div class="fb"><b>DipIFR</b> · <b>ACCA</b>. Победитель республиканских олимпиад по математике.</div>
     </div>
     <div class="fact">
       <div class="fh">Экспертиза</div>
-      <div class="fb">M&amp;A end-to-end · корпоративное управление · стратегия и монетизация · финмоделирование · подготовка к выходу · построение команды.</div>
-    </div>
-    <div class="fact">
-      <div class="fh">Фокус секторов</div>
-      <div class="fb">Финтех · e-commerce · классифайды · creator economy · B2C-приложения · автолизинг.</div>
+      <div class="fb">M&amp;A end-to-end · корпоративное управление · стратегия и монетизация · финмоделирование · подготовка к выходу.</div>
     </div>
   </div>
 </div>
