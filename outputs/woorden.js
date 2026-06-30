@@ -1546,7 +1546,7 @@ const WORDS = [
   ["donkerblond","тёмно-русый","prochee"],
   ["lichtbruin","светло-коричневый","prochee"],
   ["donkerbruin","тёмно-коричневый","prochee"],
-  ["lichtblond? dup","",""]
+  ["lichtblond? dup","",""],
   // ===== ДОБАВЛЕНО (стр. 3,5,10,19) =====
   ["de schat (-ten)","дорогой, милая (обращение)","semya"],
   ["de scheiding","развод; разделение","semya"],
