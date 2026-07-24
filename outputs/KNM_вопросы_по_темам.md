@@ -113,6 +113,142 @@
 - C. Een sportprogramma. — Спортивная программа.
 - D. Een financieel overzicht. — Финансовый отчёт.
 
+**1.22. Het brutosalaris van Omar is 2.600 euro per maand. Wat krijgt hij op zijn bankrekening?** — *Брутто-зарплата Омара 2600 евро. Сколько придёт на счёт?*
+- A. Meer dan 2.600 euro. — Больше 2600.
+- B. Precies 2.600 euro. — Ровно 2600.
+- ✅ C. Minder dan 2.600 euro. — Меньше 2600 (после вычета налогов).
+
+**1.23. Mila solliciteert naar een baan. Wat stuurt zij meestal mee?** — *Мила устраивается на работу. Что она обычно отправляет?*
+- ✅ A. Een cv en een sollicitatiebrief. — Резюме и сопроводительное письмо.
+- B. Een huurcontract en een boodschappenlijst. — Договор аренды и список покупок.
+- C. Een paspoort van haar buurman. — Паспорт соседа.
+
+**1.24. In een cao staan afspraken over werk. Waarover gaan die afspraken vaak?** — *О чём обычно договорённости в коллективном договоре (cao)?*
+- ✅ A. Salaris, werktijden en vrije dagen. — Зарплата, рабочее время и выходные.
+- B. De kleur van de voordeur. — Цвет входной двери.
+- C. Welke huisarts iemand heeft. — Какой у кого семейный врач.
+
+**1.25. Rosa wil in deeltijd werken. Kan dat in Nederland?** — *Роза хочет работать неполный день. Возможно ли это?*
+- ✅ A. Ja, dat kan. — Да, можно.
+- B. Alleen als zij met pensioen is. — Только на пенсии.
+- C. Nee, iedereen moet fulltime werken. — Нет, все должны работать полный день.
+
+**1.26. Daan heeft een arbeidscontract tot 31 december. Wat voor contract is dit?** — *У Дана контракт до 31 декабря. Какой это контракт?*
+- ✅ A. Een tijdelijk contract. — Временный контракт.
+- B. Een contract zonder einddatum. — Бессрочный контракт.
+- C. Een vrijwilligerscontract. — Волонтёрский контракт.
+
+**1.27. Sanne is ziek en kan niet werken. Wat moet zij meestal doen?** — *Санне заболела и не может работать. Что она должна сделать?*
+- ✅ A. Haar werkgever op tijd bellen. — Вовремя позвонить работодателю.
+- B. Niets zeggen en thuisblijven. — Ничего не говорить и остаться дома.
+- C. De Belastingdienst bellen. — Позвонить в налоговую.
+
+**1.28. Waarvoor is een loonstrook bedoeld?** — *Для чего нужен расчётный лист?*
+- ✅ A. Om te zien hoeveel iemand heeft verdiend en wat er is ingehouden. — Чтобы видеть, сколько заработано и что удержано.
+- B. Om een rijbewijs aan te vragen. — Для получения прав.
+- C. Om een huurhuis te bezichtigen. — Для осмотра жилья.
+
+**1.29. Noor heeft een eigen bedrijf en moet btw-aangifte doen. Waar?** — *У Нор свой бизнес, нужно подать декларацию НДС (btw). Куда?*
+- ✅ A. De Belastingdienst. — В налоговую службу.
+- B. De brandweer. — В пожарную службу.
+- C. Het consultatiebureau. — В детскую консультацию.
+
+**1.30. Een werkgever biedt minder dan het wettelijk minimumloon. Mag dat?** — *Работодатель предлагает меньше минимальной зарплаты. Можно ли так?*
+- A. Ja, als de werknemer akkoord gaat. — Да, если работник согласен.
+- ✅ B. Nee, de werkgever moet zich aan het minimumloon houden. — Нет, работодатель обязан соблюдать минимальную зарплату.
+- C. Alleen in de eerste maand. — Только в первый месяц.
+
+**1.31. Luca begint een eigen webshop. Wat moet hij volgens de wet doen?** — *Лука открывает интернет-магазин. Что он обязан сделать по закону?*
+- ✅ A. Zich inschrijven bij de Kamer van Koophandel. — Зарегистрироваться в Торговой палате (KvK).
+- B. Zich inschrijven bij een basisschool. — Записаться в начальную школу.
+- C. Een afspraak maken bij het consultatiebureau. — Записаться в детскую консультацию.
+
+**1.32. Marijke heeft een bijstandsuitkering. Moet zij werk zoeken?** — *У Марейке социальное пособие (bijstand). Обязана ли она искать работу?*
+- A. Ja. — Да.
+- ✅ B. Ja, maar niet als ze een alleenstaande ouder is met jonge kinderen. — Да, но не если она одинокий родитель с маленькими детьми.
+- C. Nee, dat is niet verplicht. — Нет, не обязательно.
+
+**1.33. Welke uitkering is voor mensen vanaf de pensioenleeftijd (65/66/67 jaar)?** — *Какое пособие для людей пенсионного возраста?*
+- ✅ A. AOW. — Государственная пенсия.
+- B. WAO. C. WIA. D. WW.
+
+**1.34. Wat doet de vakbond voor de werknemers?** — *Что делает профсоюз для работников?*
+- ✅ A. De vakbond zorgt samen met de werkgevers voor een cao. — Вместе с работодателями заключает коллективный договор (cao).
+- B. Zorgt samen met de uitzendbureaus voor werk. — Ищет работу вместе с агентствами.
+- C. Geeft iedere werknemer gratis juridische hulp. — Даёт всем бесплатную юрпомощь.
+
+**1.35. Uw diploma is niet meer voldoende voor uw werk. Wat moet u doen?** — *Вашего диплома уже недостаточно для работы. Что делать?*
+- A. Ander werk zoeken. — Искать другую работу.
+- ✅ B. Een cursus of opleiding zoeken die past bij dit werk. — Найти курс или обучение по этой работе.
+- C. Zeggen dat uw diploma vroeger goed genoeg was. — Сказать, что раньше диплома хватало.
+
+**1.36. U heeft een diploma nodig, maar u heeft er geen. Wat moet u doen?** — *Для работы нужен диплом, а у вас его нет. Что делать?*
+- ✅ A. Naar een school gaan, een opleiding zoeken en een inschrijfformulier vragen. — Пойти учиться: найти программу и записаться.
+- B. Naar het uitzendbureau gaan. — Пойти в агентство занятости.
+- C. Een sollicitatiebrief schrijven. — Написать сопроводительное письмо.
+
+**1.37. De werkgever wil dat een werknemer goed samenwerkt. Wat is nog meer belangrijk?** — *Работодатель хочет, чтобы работник хорошо работал в команде. Что ещё важно?*
+- A. Dat u alles alleen doet. — Делать всё в одиночку.
+- ✅ B. Dat u zelfstandig kunt werken. — Уметь работать самостоятельно.
+- C. Dat u alles samen met een collega doet. — Делать всё вместе с коллегой.
+
+**1.38. Wat is een parttime baan?** — *Что такое работа на неполную ставку?*
+- ✅ A. Een baan van 32 uur per week. — 32 часа в неделю.
+- B. 40 uur per week. — 40 часов.
+- C. 48 uur per week. — 48 часов.
+
+**1.39. Op uw werk moet u zware dozen verplaatsen; het lukt niet. Wat doet u?** — *На работе нужно передвинуть тяжёлые коробки, не получается. Что делать?*
+- ✅ A. U vraagt een collega of hij wil helpen. — Попросить коллегу помочь.
+- B. U laat de dozen staan. — Оставить коробки.
+- C. U gaat bij uw baas klagen. — Пожаловаться начальнику.
+
+**1.40. U wilt werken, maar uw Nederlands is niet goed genoeg. Wat doet u?** — *Вы хотите работать, но нидерландский недостаточно хорош. Что делать?*
+- ✅ A. U schrijft zich in voor een cursus Nederlands. — Записаться на курс нидерландского.
+- B. U wacht tot u goed Nederlands spreekt. — Ждать.
+- C. U praat heel weinig. — Мало говорить.
+
+**1.41. Het aangifteformulier van de belasting invullen is moeilijk. Wat doet u?** — *Налоговую декларацию сложно заполнить. Что делать?*
+- A. Leeg formulier terugsturen. — Отправить пустой формуляр.
+- ✅ B. Samen met een medewerker van de Belastingdienst invullen. — Заполнить вместе с сотрудником налоговой.
+- C. Naar uw baas gaan. — Пойти к начальнику.
+
+**1.42. Van uw brutosalaris betaalt u belasting. Wat doet de overheid met dit geld?** — *С брутто-зарплаты вы платите налоги. Что государство делает с этими деньгами?*
+- ✅ A. De overheid bouwt bijvoorbeeld wegen en bruggen. — Строит, например, дороги и мосты.
+- B. De overheid betaalt uw verzekeringen. — Платит ваши страховки.
+- C. De overheid betaalt uw pensioen. — Платит вашу пенсию.
+
+**1.43. De Kamer van Koophandel is een kamer in een groot bedrijf.** — *Торговая палата (KvK) — это комната в большой компании.*
+- A. Waar. — Верно.
+- ✅ B. Niet waar. — Неверно (это организация для регистрации бизнеса).
+
+**1.44. De bank wil je ondernemingsplan zien voordat je geld voor je bedrijf krijgt.** — *Банк хочет увидеть бизнес-план, прежде чем дать деньги на бизнес.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**1.45. Wat kun je niet automatisch betalen?** — *Что нельзя оплачивать автоматически (автосписанием)?*
+- ✅ A. De boodschappen. — Продукты.
+- B. De energierekening. — Счёт за энергию.
+- C. De huur. — Аренду.
+
+**1.46. Hoe heet het bedrag dat op je bankrekening staat?** — *Как называется сумма на банковском счёте?*
+- A. Bedrag. — Сумма.
+- B. Rente. — Процент.
+- ✅ C. Saldo. — Сальдо (баланс).
+
+**1.47. Wanneer betaalt de inboedelverzekering de schade niet?** — *Когда страховка имущества (inboedel) НЕ платит за ущерб?*
+- A. Als de computer is gestolen. — Если украли компьютер.
+- B. Als de meubels zijn verbrand. — Если сгорела мебель.
+- ✅ C. Als het dak kapot is door storm. — Если крыша повреждена штормом (это страховка здания, opstalverzekering).
+
+**1.48. Hoe heet het officiële document van de verzekering?** — *Как называется официальный документ страховки?*
+- ✅ A. Polis. — Полис.
+- B. Premie. — Премия (взнос).
+- C. Zorgpas. — Страховая карта.
+
+**1.49. De polis is een papier van de belasting.** — *Полис — это документ налоговой.*
+- A. Waar. — Верно.
+- ✅ B. Niet waar. — Неверно (это документ страховки).
+
 ---
 
 ## Тема 2. Omgangsvormen, waarden en normen — Правила поведения, ценности и нормы
