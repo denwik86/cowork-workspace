@@ -570,6 +570,64 @@
 - ✅ B. Een overzicht van je medische geschiedenis. — Обзор вашей медицинской истории.
 - C. Een document voor belastingaangifte. — Документ для налоговой декларации.
 
+**4.19. Amina is net verhuisd en heeft nog geen huisarts. Wat kan zij het beste doen?** — *Амина переехала, у неё ещё нет семейного врача. Что лучше сделать?*
+- A. Wachten tot de gemeente een huisarts kiest. — Ждать, пока муниципалитет выберет врача.
+- ✅ B. Zelf een huisartsenpraktijk bellen om zich in te schrijven. — Самой позвонить в практику и записаться.
+- C. Naar de spoedeisende hulp gaan. — Пойти в неотложку.
+
+**4.20. Tom heeft erge kiespijn. Met wie maakt hij een afspraak?** — *У Тома сильно болит зуб. К кому записаться?*
+- ✅ A. Met de tandarts. — К стоматологу.
+- B. Met het consultatiebureau. — В детскую консультацию.
+- C. Met de Belastingdienst. — В налоговую.
+
+**4.21. De buurman is gevallen. Hij praat niet en reageert niet. Welk nummer bellen?** — *Сосед упал, не говорит и не реагирует. Какой номер набрать?*
+- A. 0900-8844. — Полиция (не срочно).
+- ✅ B. 112. — Экстренный номер.
+- C. Het nummer van de apotheek. — Номер аптеки.
+
+**4.22. Mira is zwanger en wil controles tijdens haar zwangerschap. Wie helpt haar?** — *Мира беременна и хочет наблюдаться. Кто ей поможет?*
+- ✅ A. Een verloskundige. — Акушерка.
+- B. Een makelaar. — Риелтор.
+- C. Een rijinstructeur. — Автоинструктор.
+
+**4.23. Een deel van de ziekenhuisrekening valt onder het eigen risico. Wat betekent dit?** — *Часть счёта из больницы попадает под eigen risico. Что это значит?*
+- ✅ A. Yusuf betaalt dit deel zelf. — Эту часть он платит сам.
+- B. De gemeente betaalt dit deel. — Платит муниципалитет.
+- C. De werkgever betaalt dit deel. — Платит работодатель.
+
+**4.24. Waar krijgen baby's vaccinaties?** — *Где младенцам делают прививки?*
+- A. Bij de CGG. B. Bij de GGD. C. Bij de huisarts. — У семейного врача.
+- ✅ D. Bij het consultatiebureau. — В детской консультации (consultatiebureau).
+
+**4.25. Bij welk probleem helpt een maatschappelijk werker?** — *С какой проблемой помогает социальный работник?*
+- A. Je bent depressief. — Депрессия (это к врачу/GGZ).
+- ✅ B. Je bent eenzaam. — Одиночество.
+- C. Je hebt geen werk. — Нет работы.
+
+**4.26. Wanneer bel je naar het alarmnummer?** — *Когда звонить по экстренному номеру?*
+- A. De buren hebben ruzie. — Соседи ссорятся.
+- ✅ B. Iemand heeft zijn been gebroken. — Кто-то сломал ногу.
+- C. Je fiets is gestolen. — Украли велосипед.
+
+**4.27. Wanneer bel ik 112?** — *Когда я звоню 112?*
+- ✅ A. Als ik snel de politie, brandweer of ambulance nodig heb. — Когда срочно нужна полиция, пожарные или скорая.
+- B. Alleen brandweer en ambulance. — Только пожарные и скорая.
+- C. Alleen ambulance. — Только скорая.
+
+**4.28. Wie is een speciale vrouwendokter?** — *Кто такой специальный женский врач?*
+- ✅ A. De gynaecoloog. — Гинеколог.
+- B. De huisarts. — Семейный врач.
+- C. De fysiotherapeut. — Физиотерапевт.
+
+**4.29. Betaalt de zorgverzekering ook medische kosten op vakantie in het buitenland?** — *Покрывает ли медстраховка расходы в отпуске за границей?*
+- ✅ A. Ja, maar alleen als het echt nodig is. — Да, но только если это действительно необходимо.
+- B. Ja, maar alleen met een aanvullende verzekering. — Только с дополнительной страховкой.
+- C. Nee. — Нет.
+
+**4.30. Een verpleeghuis is een huis voor gezonde oude mensen.** — *Дом сестринского ухода (verpleeghuis) — это дом для здоровых пожилых людей.*
+- A. Waar. — Верно.
+- ✅ B. Niet waar. — Неверно (это для людей, которым нужен постоянный уход).
+
 ---
 
 ## Тема 5. Onderwijs en opvoeding — Образование и воспитание
