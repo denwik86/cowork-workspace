@@ -1093,9 +1093,13 @@
 
 - [KNM Oefentoets 011 (Knoester Trainingen / TaalABC) — 40 вопросов с ключом](https://www.taalabc.nl/wp-content/uploads/2017/11/oefentekst011_KNM-1.pdf)
 - [KNM Oefentoets 003 (Knoester Trainingen) — 40 вопросов с ключом](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_003_KNM.pdf)
+- [KNM Oefentoets 001 (Knoester, через Studeersnel)](https://www.studeersnel.nl/nl/document/dongemond-college/geschiedenis-profiel-zorg-welzijn/oefenexamen-001-knm-maak-deze-opdrachte/105957156)
+- [KNM Oefentoets 010 (Knoester, через Studeersnel)](https://www.studeersnel.nl/nl/document/mill-hill-college/maatschappijleer/oefenexamen-010-knm-oefenen-met-knm/112234950)
+- [Inburgering.org — тренировочный экзамен нового формата, 40 вопросов с ключом](https://inburgering.org/nl/exam-info/knm-practice-exam-guide)
 - [De Nieuwe Nederlanders — Oefentoets KNM 2025 (новый формат)](https://denieuwenederlanders.nl/knm-2025/)
 - [KNM Oefenen — 418 вопросов по 7 темам (бесплатная регистрация)](https://knmoefenen.nl/nl/oefenvragen)
 - [Официальные тренировочные экзамены DUO](https://www.inburgeren.nl/examen-doen/oefenen.jsp)
+- Отчёты сдававших: [Т—Ж (январь 2024)](https://t-j.ru/netherlands-integration/) · [somethingreally.fun](https://somethingreally.fun/amsterdam/inburgering-exam-nl) · [DutchReview об изменениях 2025](https://dutchreview.com/expat/changes-to-knm-inburgering-2025/) · [gollandia.com FAQ](https://gollandia.com/faqinburg/)
 
 **Примечания:**
 1. В ключе теста 003 вопрос «De wijkverpleegkundige is een dokter» ошибочно отмечен как «Waar» — правильный ответ **Niet waar** (медсестра — не врач), что подтверждает ключ теста 011. В документе указан правильный ответ.
