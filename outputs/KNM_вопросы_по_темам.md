@@ -915,6 +915,36 @@
 - B. Belastingdienst. — Налоговая.
 - C. Politie. — Полиция.
 
+**7.6. Kiezen de burgers de burgemeester?** — *Выбирают ли граждане бургомистра?*
+- A. Ja. — Да.
+- B. Nee, de gemeenteraad kiest de burgemeester. — Нет, его выбирает муниципальный совет.
+- ✅ C. Nee, de gemeenteraad en de regering kiezen samen de burgemeester. — Нет, муниципальный совет и правительство выбирают вместе.
+
+**7.7. Wat betekent vrijheid van meningsuiting in Nederland?** — *Что означает свобода слова в Нидерландах?*
+- ✅ A. Je mag je mening geven, maar discrimineren of bedreigen mag niet. — Можно выражать мнение, но нельзя дискриминировать или угрожать.
+- B. Je mag nooit kritiek geven. — Нельзя критиковать.
+- C. Je mag alleen thuis je mening geven. — Мнение можно выражать только дома.
+
+**7.8. De politie denkt dat iemand iets heeft gestolen. Wie bepaalt uiteindelijk de straf?** — *Полиция подозревает кражу. Кто в итоге определяет наказание?*
+- ✅ A. De rechter. — Судья.
+- B. De buurman. — Сосед.
+- C. De werkgever. — Работодатель.
+
+**7.9. Wie maakt landelijke wetten in Nederland?** — *Кто принимает государственные законы?*
+- A. Alleen de politie. — Только полиция.
+- ✅ B. De regering en het parlement. — Правительство и парламент.
+- C. Alleen de koning. — Только король.
+
+**7.10. Wat is een taak van de burgemeester?** — *Какова задача бургомистра?*
+- ✅ A. Zorgen voor openbare orde en veiligheid in de gemeente. — Отвечать за общественный порядок и безопасность в муниципалитете.
+- B. Alle huurprijzen bepalen. — Устанавливать цены на аренду.
+- C. Examens van DUO nakijken. — Проверять экзамены DUO.
+
+**7.11. Elena komt uit Spanje en woont in Nederland. Mag zij bij gemeenteraadsverkiezingen stemmen?** — *Элена из Испании живёт в Нидерландах. Может ли она голосовать на муниципальных выборах?*
+- A. Nee, nooit zonder Nederlands paspoort. — Нет, без нидерландского паспорта нельзя.
+- ✅ B. Ja, EU-burgers die in Nederland wonen mogen stemmen voor de gemeenteraad. — Да, граждане ЕС, живущие в Нидерландах, могут голосовать на муниципальных выборах.
+- C. Alleen als zij een rijbewijs heeft. — Только с водительскими правами.
+
 ---
 
 ## Тема 8. Geschiedenis en geografie — История и география
