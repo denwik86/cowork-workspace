@@ -830,6 +830,62 @@
 - B. Een auto kopen. — Купить машину.
 - C. Vakantie vieren. — Отдыхать.
 
+**6.16. De GBA betekent…** — *GBA означает…*
+- A. Geestelijke basisadministratie.
+- ✅ B. Gemeentelijke basisadministratie. — Муниципальный реестр населения (сейчас BRP).
+- C. Gerechtelijke basisadministratie.
+
+**6.17. In de GBA staan persoonsgegevens van alle bewoners van Nederland.** — *В GBA (реестре) хранятся данные всех жителей Нидерландов.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.18. Uw burgerlijke staat verandert als u gaat trouwen.** — *Ваше семейное положение меняется при вступлении в брак.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.19. Jan en Marie geven bij de gemeente aan dat ze getrouwd zijn. Ze moeten hun huwelijksakte en legitimatiebewijs meenemen.** — *Ян и Мари сообщают в муниципалитет о браке. Нужно взять свидетельство о браке и удостоверение личности.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.20. Vanaf welke leeftijd moet u zich kunnen legitimeren?** — *С какого возраста нужно иметь при себе удостоверение личности?*
+- ✅ A. Vanaf 14 jaar. — С 14 лет.
+- B. Vanaf 18 jaar. — С 18 лет.
+- C. Vanaf 21 jaar. — С 21 года.
+- D. Altijd. — Всегда.
+
+**6.21. "Anoniem" betekent dat…** — *«Анонимно» означает, что…*
+- A. De persoon bij de politie werkt. — Человек работает в полиции.
+- B. De persoon bekend is bij de politie. — Человек известен полиции.
+- ✅ C. De persoon zijn persoonlijke gegevens niet vertelt. — Человек не сообщает свои личные данные.
+
+**6.22. Welke organisatie regelt kinderbijslag?** — *Какая организация выплачивает детское пособие (kinderbijslag)?*
+- A. DUO.
+- ✅ B. De Sociale Verzekeringsbank (SVB). — Банк социального страхования (SVB).
+- C. De Kamer van Koophandel. — Торговая палата.
+
+**6.23. Sofia wil zorgtoeslag aanvragen. Naar welke website gaat zij?** — *София хочет оформить субсидию на медстраховку (zorgtoeslag). Какой сайт?*
+- ✅ A. belastingdienst.nl — сайт налоговой (toeslagen).
+- B. politie.nl — полиция.
+- C. bibliotheek.nl — библиотека.
+
+**6.24. Waar kan Hana zien welke inburgeringsexamens zij nog moet doen?** — *Где Хана может посмотреть, какие экзамены по интеграции ей осталось сдать?*
+- ✅ A. In Mijn Inburgering. — В личном кабинете Mijn Inburgering.
+- B. In de webshop van de gemeente. — В интернет-магазине муниципалитета.
+- C. In de reisplanner van de NS. — В планировщике поездок NS.
+
+**6.25. Welke hulp krijg je bijvoorbeeld van VluchtelingenWerk?** — *Какую помощь даёт, например, VluchtelingenWerk?*
+- A. Een inburgeringscursus. — Курс интеграции.
+- B. Hulp als je lang ziek thuis bent. — Помощь при долгой болезни.
+- ✅ C. Hulp bij het invullen van een formulier. — Помощь с заполнением формуляров.
+
+**6.26. Als je voor de rechter moet komen, kan een advocaat je helpen.** — *Если нужно предстать перед судом, адвокат может помочь.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.27. Een identiteitsbewijs aanvragen is gratis.** — *Оформление удостоверения личности бесплатно.*
+- A. Waar. — Верно.
+- ✅ B. Niet waar. — Неверно (это платно).
+
 ---
 
 ## Тема 7. Staatsinrichting en rechtsstaat — Государственное устройство и правовое государство
