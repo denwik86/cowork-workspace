@@ -435,6 +435,52 @@
 - C. Restaurants in de stad. — Рестораны в городе.
 - D. Activiteiten voor jongeren. — Мероприятия для молодёжи.
 
+**3.15. Jade betaalt ook servicekosten. Waarvoor zijn servicekosten vaak?** — *Джейд платит сервисные расходы. За что они обычно?*
+- ✅ A. Kosten voor bijvoorbeeld schoonmaak van gemeenschappelijke ruimtes. — Например, уборка общих помещений.
+- B. Kosten voor haar zorgverzekering. — Медстраховка.
+- C. Kosten voor haar rijexamen. — Экзамен на права.
+
+**3.16. Waarom hangt er een rookmelder in huis?** — *Зачем в доме датчик дыма?*
+- ✅ A. Om brand of rook snel te merken. — Чтобы быстро заметить пожар или дым.
+- B. Om de huur automatisch te betalen. — Для автооплаты аренды.
+- C. Om internet sneller te maken. — Для быстрого интернета.
+
+**3.17. Bij Karim lekt water uit het plafond van zijn huurwoning. Wat doet hij het beste eerst?** — *У Карима протекает потолок в съёмном жилье. Что сделать сначала?*
+- ✅ A. De verhuurder of woningcorporatie melden dat er lekkage is. — Сообщить арендодателю или жилищной корпорации о протечке.
+- B. De kinderopvang bellen. — Позвонить в детский сад.
+- C. Wachten tot de gemeente elke woning controleert. — Ждать проверки от муниципалитета.
+
+**3.18. De elektriciteitsmeter toont meterstand 004582 kWh en meternummer 781204. Welk getal geeft Liv door als stroomstand?** — *На счётчике: показание 004582 кВт·ч и номер счётчика 781204. Какое число передать как показание?*
+- A. 781204.
+- ✅ B. 004582. — Показание счётчика.
+- C. 2026.
+
+**3.19. Welk afval mag niet bij het restafval?** — *Какой мусор нельзя выбрасывать в общий (restafval)?*
+- ✅ A. Een batterij. — Батарейку (химические отходы).
+- B. Een leeg colablikje. — Пустую банку колы.
+- C. Het deksel van een pot. — Крышку банки.
+- D. Een kapotte driezitsbank. — Сломанный диван (это grofvuil, но вопрос про restafval-контейнер).
+
+**3.20. Jannie en Gijs willen een kapotte koelkast weggooien. Wat moeten ze doen?** — *Нужно выбросить сломанный холодильник. Что сделать?*
+- A. Naar de chemokar brengen. — Отвезти в химмобиль.
+- B. Naast de container op straat zetten. — Поставить рядом с контейнером.
+- ✅ C. Het afvaldepot bellen om een afspraak te maken. — Позвонить в пункт приёма отходов и договориться (о вывозе крупного мусора).
+
+**3.21. "De straat is autovrij" betekent:** — *«Улица autovrij» означает:*
+- A. Er mogen auto's rijden. — Машины могут ездить.
+- ✅ B. Er mogen geen auto's op de straat rijden. — Машинам ездить нельзя.
+- C. Er mogen fietsers rijden. — Могут ездить велосипедисты.
+
+**3.22. Bij een veilige oversteekplaats kunt u…** — *На безопасном пешеходном переходе вы можете…*
+- ✅ A. Goed zien wat er aankomt als je wilt oversteken. — Хорошо видеть приближающийся транспорт.
+- B. Niet goed zien wat eraan komt. — Плохо видеть.
+- C. Uw auto parkeren. — Парковаться.
+
+**3.23. Een bibliotheekpasje gebruik je om…** — *Библиотечная карта нужна, чтобы…*
+- ✅ A. Materialen van de bibliotheek te lenen. — Брать материалы библиотеки на время.
+- B. Op de computer van de bibliotheek te werken. — Работать на компьютере библиотеки.
+- C. Boeken van de bibliotheek te betalen. — Оплачивать книги.
+
 ---
 
 ## Тема 4. Gezondheid en gezondheidszorg — Здоровье и здравоохранение
