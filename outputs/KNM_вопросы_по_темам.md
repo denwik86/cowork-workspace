@@ -2263,7 +2263,7 @@
 
 ## Где взять ещё больше вопросов
 
-- **PDF-сборник всех тестов Knoester 001–010 одним файлом (400 вопросов с ключами):** [nederlandsleren.net/Oefenexamen_KNM.pdf](https://nederlandsleren.net/wp-content/uploads/2018/08/Oefenexamen_KNM.pdf)
+- **PDF-сборник всех тестов Knoester 001–010 одним файлом** — уже полностью включён в этот документ; оригинал: [nederlandsleren.net/Oefenexamen_KNM.pdf](https://nederlandsleren.net/wp-content/uploads/2018/08/Oefenexamen_KNM.pdf)
 - Отдельные тесты: [001](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_001_KNM.pdf) · [002](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_002_KNM.pdf) · [004](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_004_KNM.pdf) · [006](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_006_KNM.pdf) · [007](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_007_KNM.pdf) · [008](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_008_KNM.pdf) · [009](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_009_KNM.pdf) · [010](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_010_KNM.pdf) (тесты 012–016 в открытом доступе не существуют)
 - **Официальные интерактивные пробные экзамены DUO:** [inburgeren.nl/examen-doen/oefenen.jsp](https://www.inburgeren.nl/examen-doen/oefenen.jsp) — максимально близки к реальному экзамену, но не скачиваются
 - **knmoefenen.nl** — 418 вопросов по 7 темам, бесплатная регистрация
