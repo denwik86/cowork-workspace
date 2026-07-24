@@ -257,3 +257,378 @@
 - ✅ B. Hulp en ondersteuning van de overheid aan inwoners. — Помощь и поддержка государства жителям.
 - C. Restaurants in de stad. — Рестораны в городе.
 - D. Activiteiten voor jongeren. — Мероприятия для молодёжи.
+
+---
+
+## Тема 4. Gezondheid en gezondheidszorg — Здоровье и здравоохранение
+
+**4.1. Wat is geestelijke gezondheidszorg?** — *Что такое психиатрическая помощь (GGZ)?*
+- A. Een andere naam voor GGD. — Другое название GGD.
+- ✅ B. Een plaats waar psychologen en psychiaters werken. — Место, где работают психологи и психиатры.
+- C. Een polikliniek in het ziekenhuis. — Поликлиника при больнице.
+
+**4.2. In Nederland ben je vrij om je eigen zorgverzekeraar te kiezen.** — *В Нидерландах вы свободны в выборе страховой компании.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**4.3. Als je kiest voor een hoger eigen risico, moet je meer eigen risico betalen.** — *Если выбрать более высокую франшизу (eigen risico), придётся платить больше франшизы.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**4.4. Als je kiest voor een eigen risico, betaal je alle kosten zelf.** — *Если у вас есть франшиза, вы платите все расходы сами.*
+- A. Waar. — Верно.
+- ✅ B. Niet waar. — Неверно (только до суммы франшизы).
+
+**4.5. Welk briefje heb je nodig voor de specialist?** — *Какой документ нужен для визита к врачу-специалисту?*
+- A. Een etiket. — Этикетка.
+- B. Een recept. — Рецепт.
+- ✅ C. Een verwijsbrief. — Направление (от семейного врача).
+
+**4.6. Bij de basisverzekering worden alle kosten voor je betaald.** — *Базовая страховка покрывает все расходы.*
+- A. Waar. — Верно.
+- ✅ B. Niet waar. — Неверно.
+
+**4.7. In het groeiboekje staat een grafiek met de groeicurve van je baby.** — *В книжке развития ребёнка есть график кривой роста.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**4.8. Een groeicurve is belangrijk omdat u kunt zien dat…** — *Кривая роста важна, потому что показывает, что…*
+- ✅ A. Uw kind goed groeit. — Ребёнок хорошо растёт.
+- B. Uw kind goed eet. — Хорошо ест.
+- C. Uw kind goed slaapt. — Хорошо спит.
+
+**4.9. De wijkverpleegkundige is een dokter.** — *Участковая медсестра — это врач.*
+- A. Waar. — Верно.
+- ✅ B. Niet waar. — Неверно (это медсестра, не врач).
+
+**4.10. "Ik zet haar tegen de meetlat" betekent:** — *«Я поставлю её к ростомеру» означает:*
+- ✅ A. Ik moet haar meten. — Мне нужно измерить её рост.
+- B. Ik moet kijken hoe zwaar ze is. — Взвесить её.
+- C. Ik moet kijken hoe laat het is. — Посмотреть время.
+
+**4.11. Bij het consultatiebureau krijgen de ouders van kinderen tot vier jaar advies.** — *В consultatiebureau родители детей до 4 лет получают консультации.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**4.12. Wat is een patiëntenpas?** — *Что такое карта пациента?*
+- A. Een plastic kaartje met NAW-gegevens. — Карточка с именем и адресом.
+- B. Een plastic kaart met ziekenhuisafspraken. — Карточка с записями к врачу.
+- ✅ C. Een plastic kaartje met informatie over jou en een persoonlijke barcode. — Карточка с вашими данными и персональным штрих-кодом.
+
+**4.13. Wat is de taak van de huisarts?** — *Какова задача семейного врача?*
+- A. Alleen recepten uitschrijven. — Только выписывать рецепты.
+- ✅ B. Patiënten behandelen en doorverwijzen. — Лечить пациентов и давать направления.
+- C. Ziekenhuizen beheren. — Управлять больницами.
+- D. Alleen spoed behandelen. — Только экстренные случаи.
+
+**4.14. Waar kun je terecht voor spoedeisende hulp?** — *Куда обращаться за экстренной помощью?*
+- A. Huisarts. — Семейный врач.
+- B. Apotheek. — Аптека.
+- ✅ C. Spoedeisende hulp (SEH) in het ziekenhuis. — Отделение неотложной помощи (SEH) в больнице.
+- D. Tandarts. — Стоматолог.
+
+**4.15. Welke zorgverzekering is verplicht in Nederland?** — *Какая медицинская страховка обязательна в Нидерландах?*
+- A. Tandartsverzekering. — Стоматологическая.
+- B. Aanvullende verzekering. — Дополнительная.
+- ✅ C. Basisverzekering. — Базовая.
+
+**4.16. Wat doet een apotheek?** — *Что делает аптека?*
+- A. Behandelen van patiënten. — Лечит пациентов.
+- ✅ B. Verstrekken van medicijnen. — Выдаёт лекарства.
+- C. Röntgenfoto's maken. — Делает рентген.
+
+**4.17. Wanneer ga je naar de huisarts?** — *Когда идут к семейному врачу?*
+- A. Voor een ziekenhuisopname. — Для госпитализации.
+- ✅ B. Bij gezondheidsklachten of vragen. — При жалобах на здоровье или вопросах.
+- C. Alleen voor recepten. — Только за рецептами.
+
+**4.18. Wat is een medisch dossier?** — *Что такое медицинская карта?*
+- A. Een lijst van medicijnen. — Список лекарств.
+- ✅ B. Een overzicht van je medische geschiedenis. — Обзор вашей медицинской истории.
+- C. Een document voor belastingaangifte. — Документ для налоговой декларации.
+
+---
+
+## Тема 5. Onderwijs en opvoeding — Образование и воспитание
+
+**5.1. Op welke school leer je een beroep?** — *В какой школе учат профессии?*
+- A. havo.
+- ✅ B. vmbo — предпрофессиональное среднее образование.
+- C. vwo.
+
+**5.2. Wat wordt bijvoorbeeld betaald met de vrijwillige bijdrage?** — *Что оплачивается за счёт добровольного взноса родителей?*
+- A. De boeken op school. — Школьные учебники.
+- B. De energierekening van de school. — Счета школы за электричество.
+- ✅ C. Schoolreisjes. — Школьные экскурсии.
+
+**5.3. Waar moet u de studiefinanciering aanvragen?** — *Где оформлять финансирование учёбы (studiefinanciering)?*
+- ✅ A. Bij de Dienst Uitvoering Onderwijs (DUO). — В DUO.
+- B. Bij de Gemeentebelastingen. — В муниципальной налоговой.
+- C. Bij de Gemeentelijke Basisadministratie (GBA). — В реестре населения.
+
+**5.4. Mevrouw Jansen wil dat haar kind 5 dagdelen naar de peuterspeelzaal gaat. Kan dat?** — *Госпожа Янсен хочет, чтобы её ребёнок ходил в игровую группу 5 полудней. Возможно ли это?*
+- ✅ A. Waar. — Да.
+- B. Niet waar. — Нет.
+
+**5.5. Welk vak krijgen kinderen NIET op de basisschool?** — *Какого предмета НЕТ в начальной школе?*
+- A. Aardrijkskunde. — География.
+- B. Geschiedenis. — История.
+- ✅ C. Scheikunde. — Химия.
+
+**5.6. Wat zijn klaar-overs?** — *Кто такие klaar-overs?*
+- A. Mensen die klaar zijn. — Люди, которые закончили.
+- ✅ B. Mensen die kinderen helpen oversteken bij de school. — Люди, помогающие детям переходить дорогу у школы.
+- C. Mensen die oudere mensen helpen oversteken. — Помогающие пожилым переходить дорогу.
+
+**5.7. In Nederland is veel water, rond scholen zijn vijvers en slootjes. Daarom is zwemles belangrijk.** — *В Нидерландах много воды, поэтому уроки плавания важны для детей.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**5.8. Als de kinderen overblijven, eten ze op school.** — *Если дети «overblijven», они обедают в школе.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**5.9. Wat is een pictogram?** — *Что такое пиктограмма?*
+- A. Een televisieprogramma. — Телепрограмма.
+- ✅ B. Een symbool of plaatje. — Символ или картинка.
+- C. Een letter. — Буква.
+
+**5.10. Ouders van een 3-jarige maken een afspraak met een basisschool en krijgen informatie van de directeur.** — *Родители трёхлетнего ребёнка встречаются с директором начальной школы и получают информацию.*
+- ✅ A. Waar. — Верно (так это и происходит).
+- B. Niet waar. — Неверно.
+
+**5.11. Wat staat er in de schoolgids?** — *Что написано в школьном справочнике (schoolgids)?*
+- ✅ A. Onder andere hoe je je kind kunt aanmelden, de lestijden en de vakantiedagen. — Как записать ребёнка, расписание уроков и каникулы.
+- B. Hoe groot het schoolplein is. — Размер школьного двора.
+- C. Wat voor eten je kind op school krijgt. — Какую еду дают в школе.
+
+**5.12. Wat is de brugklas?** — *Что такое brugklas (переходный класс)?*
+- A. Een klas met een brug. — Класс с мостом.
+- B. Een klas met extra taallessen. — Класс с дополнительными уроками языка.
+- ✅ C. Een klas waarin de definitieve keuze voor een schoolsoort wordt uitgesteld. — Класс, где окончательный выбор типа школы откладывается.
+
+**5.13. Alle kinderen zijn leerplichtig tot…** — *Все дети обязаны учиться до…*
+- ✅ A. 16 jaar. — 16 лет.
+- B. 17 jaar. — 17 лет.
+- C. 18 jaar. — 18 лет.
+
+**5.14. Het VWO duurt…** — *Обучение на VWO длится…*
+- A. 4 jaar. — 4 года.
+- B. 5 jaar. — 5 лет.
+- ✅ C. 6 jaar. — 6 лет.
+
+**5.15. Het VMBO duurt…** — *Обучение на VMBO длится…*
+- ✅ A. 4 jaar. — 4 года.
+- B. 5 jaar. — 5 лет.
+- C. 6 jaar. — 6 лет.
+
+**5.16. Welke leeftijd is gebruikelijk om met de middelbare school te beginnen?** — *В каком возрасте обычно начинают среднюю школу?*
+- A. 4 jaar. — 4 года.
+- ✅ B. 12 jaar. — 12 лет.
+- C. 18 jaar. — 18 лет.
+
+**5.17. Wat is een beroepsopleiding?** — *Что такое профессиональное обучение?*
+- ✅ A. Een opleiding gericht op een specifiek beroep. — Обучение конкретной профессии.
+- B. Een cursus voor hobby's. — Курс для хобби.
+- C. Een sporttraining. — Спортивная тренировка.
+
+**5.18. Welke instantie geeft diploma's uit in Nederland?** — *Какая организация выдаёт дипломы?*
+- A. Gemeente. — Муниципалитет.
+- ✅ B. Onderwijsinstelling (school). — Учебное заведение (школа).
+- C. UWV.
+- D. Belastingdienst. — Налоговая служба.
+
+---
+
+## Тема 6. Instanties — Государственные организации и инстанции
+
+**6.1. Als je iets officieel zegt tegen de politie, doe je aangifte.** — *Официальное заявление в полицию — это «aangifte».*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.2. Je burgerservicenummer (BSN) staat op papieren van de belasting.** — *Ваш BSN указан на налоговых документах.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.3. De termijn is een bepaalde tijd, bijvoorbeeld een maand.** — *«Termijn» — это определённый срок, например месяц.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.4. Een advocaat is altijd gratis.** — *Адвокат всегда бесплатный.*
+- A. Waar. — Верно.
+- ✅ B. Niet waar. — Неверно.
+
+**6.5. Sociaal Raadslieden kunnen je helpen met het invullen van formulieren.** — *Социальные консультанты могут помочь с заполнением формуляров.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.6. Als je wilt scheiden, kan een advocaat je helpen.** — *При разводе может помочь адвокат.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**6.7. Waarvoor kun je naar het gemeentehuis?** — *Зачем можно пойти в здание муниципалитета?*
+- ✅ A. Een paspoort aanvragen. — Оформить паспорт.
+- B. Naar de supermarkt. — За покупками.
+- C. Naar de huisarts. — К врачу.
+
+**6.8. Wat betekent "digitaal loket" bij de gemeente?** — *Что такое «цифровое окно» муниципалитета?*
+- A. Een loket voor papieren formulieren. — Окно для бумажных формуляров.
+- ✅ B. Een online platform waar je gemeentelijke diensten kunt regelen. — Онлайн-платформа для муниципальных услуг.
+- C. Een computerwinkel. — Компьютерный магазин.
+
+**6.9. Hoe betaal je in Nederland meestal belasting?** — *Как обычно платят налоги в Нидерландах?*
+- A. Contant bij de gemeente. — Наличными в муниципалитете.
+- ✅ B. Via de Belastingdienst online of automatisch. — Через налоговую службу онлайн или автоматически.
+- C. Door een brief te sturen naar de koning. — Письмом королю.
+
+**6.10. Waar kun je je uitschrijven als je verhuist naar een andere gemeente?** — *Где выписаться при переезде в другой муниципалитет?*
+- A. Politie. — Полиция.
+- ✅ B. Gemeentehuis van je oude gemeente. — Муниципалитет по старому адресу.
+- C. UWV.
+
+**6.11. Wat regelt de Belastingdienst?** — *Чем занимается налоговая служба?*
+- A. De zorgverzekering. — Медицинской страховкой.
+- ✅ B. Belastingaangifte en toeslagen. — Налоговыми декларациями и субсидиями (toeslagen).
+- C. Schoolinschrijvingen. — Записью в школы.
+
+**6.12. Wat is een paspoort?** — *Что такое паспорт?*
+- ✅ A. Een document waarmee je internationaal kunt reizen. — Документ для международных поездок.
+- B. Een identiteitsbewijs in je eigen stad. — Удостоверение личности только в своём городе.
+- C. Een rijbewijs. — Водительские права.
+
+**6.13. Wat is de taak van de gemeente bij afvalinzameling?** — *Какова роль муниципалитета в сборе мусора?*
+- A. Alles laten verbranden. — Всё сжигать.
+- ✅ B. Afval ophalen en scheiden. — Собирать и сортировать мусор.
+- C. Afval naar het buitenland sturen. — Отправлять мусор за границу.
+
+**6.14. Wat is een sociaal loket?** — *Что такое социальное окно (sociaal loket)?*
+- ✅ A. Een plek waar je informatie en hulp van de gemeente kunt krijgen. — Место, где можно получить информацию и помощь от муниципалитета.
+- B. Een winkel. — Магазин.
+- C. Een sporthal. — Спортзал.
+
+**6.15. Wat betekent "inburgeren"?** — *Что означает «интеграция» (inburgeren)?*
+- ✅ A. De Nederlandse taal leren en kennis opdoen over de samenleving. — Учить нидерландский язык и узнавать общество.
+- B. Een auto kopen. — Купить машину.
+- C. Vakantie vieren. — Отдыхать.
+
+---
+
+## Тема 7. Staatsinrichting en rechtsstaat — Государственное устройство и правовое государство
+
+**7.1. De politieke partijen zijn rechts, links of middenpartijen. Welke combinatie is goed?** — *Партии бывают правые, левые и центристские. Какая комбинация верна?*
+- A. CDA = links, PvdA = midden, VVD = rechts.
+- ✅ B. CDA = midden, PvdA = links, VVD = rechts. — CDA — центр, PvdA — левые, VVD — правые.
+- C. CDA = rechts, PvdA = links, VVD = midden.
+
+**7.2. U woont 4 jaar legaal in Nederland. Mag u stemmen voor de gemeenteraad?** — *Вы легально живёте в Нидерландах 4 года. Можете ли голосовать на муниципальных выборах?*
+- A. Ja, want u woont legaal in Nederland. — Да, вы живёте легально.
+- ✅ B. Nee, want u woont nog geen vijf jaar legaal in Nederland. — Нет, нужно минимум 5 лет легального проживания.
+- C. Ja, alle buitenlanders mogen stemmen. — Да, все иностранцы могут.
+
+**7.3. Wie is de baas in Nederland?** — *Кто главный в Нидерландах?*
+- A. De koning. — Король.
+- B. De premier. — Премьер-министр.
+- ✅ C. Het volk. — Народ (демократия).
+
+**7.4. Wat is een gemeenteraad?** — *Что такое муниципальный совет?*
+- ✅ A. Een groep die beleid en regels voor de gemeente maakt. — Орган, который принимает правила и политику муниципалитета.
+- B. Een feestcommissie. — Праздничный комитет.
+- C. Een schoolbestuur. — Школьное правление.
+
+**7.5. Welke organisatie regelt WW-uitkeringen in Nederland?** — *Какая организация оформляет пособия по безработице (WW)?*
+- ✅ A. UWV.
+- B. Belastingdienst. — Налоговая.
+- C. Politie. — Полиция.
+
+---
+
+## Тема 8. Geschiedenis en geografie — История и география
+
+**8.1. Welke 2 buurlanden heeft Nederland?** — *Какие 2 соседние страны у Нидерландов?*
+- ✅ A. België en Duitsland. — Бельгия и Германия.
+- B. België en de Noordzee. — Бельгия и Северное море.
+- C. België en Frankrijk. — Бельгия и Франция.
+- D. België en Friesland. — Бельгия и Фрисландия.
+
+**8.2. In welke provincie zijn er veel duinen?** — *В какой провинции много дюн?*
+- A. Friesland.
+- ✅ B. Noord-Holland. — Северная Голландия.
+- C. Zeeland. — Зеландия.
+
+**8.3. Met de euro betalen de mensen…** — *Евро расплачиваются…*
+- A. Alleen in Nederland. — Только в Нидерландах.
+- ✅ B. In veel landen in Europa. — Во многих странах Европы.
+- C. In alle landen van Europa. — Во всех странах Европы.
+
+**8.4. Waar ligt Den Haag?** — *Где находится Гаага?*
+- A. In het noorden van Nederland. — На севере.
+- ✅ B. In het westen van Nederland. — На западе Нидерландов.
+- C. In het oosten. — На востоке.
+- D. In het zuiden. — На юге.
+
+**8.5. Hoe heten de dijken die na de Watersnoodramp in Zeeland zijn gemaakt?** — *Как называются дамбы, построенные после наводнения 1953 года в Зеландии?*
+- A. De Afsluitdijk. — Афслёйтдейк.
+- ✅ B. De Deltawerken. — Дельта-проект (Deltawerken).
+- C. De Flevopolder. — Флевополдер.
+- D. De Hondsbossche zeewering. — Хондсбосская дамба.
+
+**8.6. Wanneer kwamen er veel gastarbeiders naar Nederland?** — *Когда в Нидерланды приехало много гастарбайтеров?*
+- A. Na 1985. — После 1985.
+- ✅ B. Na de Tweede Wereldoorlog. — После Второй мировой войны.
+- C. Na de Eerste Wereldoorlog. — После Первой мировой.
+- D. Na de wederopbouw. — После восстановления страны.
+
+---
+
+## Тема 9. Digitalisering — Цифровизация (новая тема с июля 2025)
+
+**9.1. Wat is e-mail?** — *Что такое электронная почта?*
+- A. Een papieren brief. — Бумажное письмо.
+- ✅ B. Een bericht via internet. — Сообщение через интернет.
+- C. Een telefoonnummer. — Номер телефона.
+
+**9.2. Wat kun je doen met DigiD?** — *Что можно делать с DigiD?*
+- ✅ A. Online inloggen bij overheidswebsites. — Входить на государственные сайты онлайн.
+- B. Een nieuwe paspoortfoto maken. — Делать фото на паспорт.
+- C. Een pakketje bezorgen. — Доставлять посылки.
+
+**9.3. Wat is online bankieren?** — *Что такое онлайн-банкинг?*
+- A. Geld pinnen bij een pinautomaat. — Снимать деньги в банкомате.
+- ✅ B. Bankzaken regelen via internet of een app. — Управлять банковскими делами через интернет или приложение.
+- C. Een bank kopen. — Купить банк.
+
+**9.4. Waarom is het belangrijk om je wachtwoord geheim te houden?** — *Почему важно держать пароль в секрете?*
+- ✅ A. Anders kunnen mensen toegang krijgen tot je informatie. — Иначе люди могут получить доступ к вашим данным.
+- B. Voor de lol. — Ради забавы.
+- C. Om online spelletjes te winnen. — Чтобы выигрывать в игры.
+
+**9.5. Wat is een QR-code?** — *Что такое QR-код?*
+- A. Een soort document. — Вид документа.
+- ✅ B. Een streepjescode die je kunt scannen met een telefoon. — Код, который можно отсканировать телефоном.
+- C. Een type paspoort. — Тип паспорта.
+
+**9.6. Wat is een online afspraak maken bij de gemeente?** — *Что значит записаться в муниципалитет онлайн?*
+- A. Bellen naar de gemeente. — Позвонить в муниципалитет.
+- ✅ B. Via internet een afspraak plannen. — Запланировать визит через интернет.
+- C. Langskomen zonder afspraak. — Прийти без записи.
+
+**9.7. Waarom is het belangrijk je persoonlijke gegevens online te beschermen?** — *Почему важно защищать личные данные онлайн?*
+- ✅ A. Anders kunnen mensen toegang krijgen tot je informatie. — Иначе к вашим данным получат доступ посторонние.
+- B. Voor de lol. — Ради забавы.
+- C. Om reclame te krijgen. — Чтобы получать рекламу.
+
+---
+
+## Источники
+
+- [KNM Oefentoets 011 (Knoester Trainingen / TaalABC) — 40 вопросов с ключом](https://www.taalabc.nl/wp-content/uploads/2017/11/oefentekst011_KNM-1.pdf)
+- [KNM Oefentoets 003 (Knoester Trainingen) — 40 вопросов с ключом](https://mediatheek.steunpuntvluchtelingendebilt.nl/wp-content/uploads/2017/05/Oefenexamen_003_KNM.pdf)
+- [De Nieuwe Nederlanders — Oefentoets KNM 2025 (новый формат)](https://denieuwenederlanders.nl/knm-2025/)
+- [KNM Oefenen — 418 вопросов по 7 темам (бесплатная регистрация)](https://knmoefenen.nl/nl/oefenvragen)
+- [Официальные тренировочные экзамены DUO](https://www.inburgeren.nl/examen-doen/oefenen.jsp)
+
+**Примечания:**
+1. В ключе теста 003 вопрос «De wijkverpleegkundige is een dokter» ошибочно отмечен как «Waar» — правильный ответ **Niet waar** (медсестра — не врач), что подтверждает ключ теста 011. В документе указан правильный ответ.
+2. С июля 2025 экзамен KNM обновлён: меньше вопросов «как себя вести», больше фактических вопросов + новые темы «цифровизация» и «культурное разнообразие».
+3. Повторяющиеся вопросы из разных тестов объединены.
+
