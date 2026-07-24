@@ -574,9 +574,9 @@
 
 **8.6. Wanneer kwamen er veel gastarbeiders naar Nederland?** — *Когда в Нидерланды приехало много гастарбайтеров?*
 - A. Na 1985. — После 1985.
-- ✅ B. Na de Tweede Wereldoorlog. — После Второй мировой войны.
+- B. Na de Tweede Wereldoorlog. — После Второй мировой войны.
 - C. Na de Eerste Wereldoorlog. — После Первой мировой.
-- D. Na de wederopbouw. — После восстановления страны.
+- ✅ D. Na de wederopbouw. — После восстановления страны (1960-е годы).
 
 ---
 
