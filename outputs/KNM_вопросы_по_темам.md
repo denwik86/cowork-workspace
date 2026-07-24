@@ -320,6 +320,47 @@
 - C. Engels — английский.
 - D. Frans — французский.
 
+**2.14. Niels is uitgenodigd voor een verjaardag om 20.00 uur. Wat is in Nederland meestal beleefd?** — *Нильса пригласили на день рождения к 20:00. Что считается вежливым?*
+- ✅ A. Rond 20.00 uur komen of laten weten dat hij later is. — Прийти около 20:00 или предупредить об опоздании.
+- B. Pas om 23.00 uur komen zonder iets te zeggen. — Прийти в 23:00 без предупреждения.
+- C. Niet reageren op de uitnodiging. — Не отвечать на приглашение.
+
+**2.15. De buurman zet vaak harde muziek aan in de avond. Wat kan Farah het beste eerst doen?** — *Сосед часто громко включает музыку по вечерам. Что лучше сделать сначала?*
+- A. Meteen verhuizen. — Сразу переехать.
+- ✅ B. Rustig met de buurman praten. — Спокойно поговорить с соседом.
+- C. De huisarts bellen. — Позвонить врачу.
+
+**2.16. Een kind zet een schoen bij de deur met een wortel erin. Welke traditie hoort hierbij?** — *Ребёнок ставит ботинок с морковкой у двери. Какая это традиция?*
+- A. Koningsdag. — День короля.
+- ✅ B. Sinterklaas. — Синтерклаас (5 декабря).
+- C. Prinsjesdag. — День принца.
+
+**2.17. Wat is geen christelijk feest?** — *Что НЕ является христианским праздником?*
+- A. Hemelvaartsdag. — Вознесение.
+- ✅ B. Oudejaarsdag. — Канун Нового года.
+- C. Pasen. — Пасха.
+
+**2.18. Hoe laat gaan Nederlanders meestal op visite?** — *Во сколько голландцы обычно ходят в гости?*
+- A. Om 6 uur 's avonds. — В 18:00.
+- B. Om 7 uur 's avonds. — В 19:00.
+- ✅ C. Om 8 uur 's avonds. — В 20:00.
+- D. Nooit. — Никогда.
+
+**2.19. Mag je in Nederland samenwonen zonder te trouwen?** — *Можно ли в Нидерландах жить вместе без брака?*
+- A. Nee, eerst trouwen. — Нет, сначала брак.
+- B. Ja, maar een man mag niet met een man samenwonen. — Да, но мужчина не может жить с мужчиной.
+- ✅ C. Ja, iedereen mag samenwonen met wie hij of zij wil. — Да, каждый может жить с кем хочет.
+
+**2.20. Een kennis nodigt u uit voor het eten. Bent u verplicht die kennis daarna ook uit te nodigen?** — *Знакомый пригласил вас на ужин. Обязаны ли вы пригласить в ответ?*
+- ✅ A. Nee, niet verplicht, maar meestal vraagt men de mensen wel terug. — Нет, не обязаны, но обычно приглашают в ответ.
+- B. Ja, het is de gewoonte om direct terug te vragen. — Да, принято сразу приглашать в ответ.
+- C. Nee, een Nederlander nodigt zichzelf wel uit. — Нет, голландец сам себя пригласит.
+
+**2.21. U geeft vanavond een tuinfeestje. Wat kunt u het beste doen?** — *Вечером у вас вечеринка в саду. Что лучше сделать?*
+- ✅ A. U vertelt uw buren dat u een feestje geeft. — Предупредить соседей о вечеринке.
+- B. U vraagt uw buren de volgende morgen op de koffie. — Позвать соседей на кофе на следующее утро.
+- C. U vertelt niks en hoopt dat ze niet klagen. — Ничего не говорить и надеяться, что не пожалуются.
+
 ---
 
 ## Тема 3. Wonen — Жильё и совместное проживание
