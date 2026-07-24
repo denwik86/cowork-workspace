@@ -983,6 +983,26 @@
 - C. Na de Eerste Wereldoorlog. — После Первой мировой.
 - ✅ D. Na de wederopbouw. — После восстановления страны (1960-е годы).
 
+**8.7. Wanneer is Koningsdag in Nederland?** — *Когда в Нидерландах День короля?*
+- ✅ A. 27 april. — 27 апреля.
+- B. 4 mei. — 4 мая (День поминовения).
+- C. 25 december. — 25 декабря.
+
+**8.8. In welke provincie ligt Maastricht?** — *В какой провинции находится Маастрихт?*
+- A. Groningen.
+- ✅ B. Limburg. — Лимбург.
+- C. Noord-Holland.
+
+**8.9. Waarom zijn dijken belangrijk in Nederland?** — *Почему дамбы важны для Нидерландов?*
+- ✅ A. Ze helpen het land beschermen tegen water. — Они защищают страну от воды.
+- B. Ze zorgen dat winkels langer open zijn. — Магазины дольше открыты.
+- C. Ze bepalen wie mag stemmen. — Определяют, кто голосует.
+
+**8.10. Welk land was vroeger een kolonie van Nederland?** — *Какая страна была колонией Нидерландов?*
+- ✅ A. Indonesië. — Индонезия.
+- B. Noorwegen. — Норвегия.
+- C. Zwitserland. — Швейцария.
+
 ---
 
 ## Тема 9. Digitalisering — Цифровизация (новая тема с июля 2025)
