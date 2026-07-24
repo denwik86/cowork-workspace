@@ -719,6 +719,44 @@
 - C. UWV.
 - D. Belastingdienst. — Налоговая служба.
 
+**5.19. Vanaf welke leeftijd moet een kind verplicht naar school?** — *С какого возраста ребёнок обязан ходить в школу?*
+- A. Vanaf 4 jaar. — С 4 лет.
+- ✅ B. Vanaf 5 jaar. — С 5 лет (leerplicht с 5, но большинство идёт с 4).
+- C. Vanaf 7 jaar. — С 7 лет.
+
+**5.20. Vanaf welke leeftijd mogen kinderen naar de basisschool?** — *С какого возраста дети МОГУТ идти в начальную школу?*
+- A. 2 jaar. B. 3 jaar.
+- ✅ C. 4 jaar. — С 4 лет.
+- D. 5 jaar.
+
+**5.21. Wat gebeurt er meestal tijdens een oudergesprek op school?** — *Что обычно происходит на родительской беседе в школе?*
+- ✅ A. Ouders praten met de school over hoe het met hun kind gaat. — Родители обсуждают со школой, как дела у ребёнка.
+- B. Ouders vragen een paspoort aan. — Оформляют паспорт.
+- C. Ouders betalen inkomstenbelasting. — Платят подоходный налог.
+
+**5.22. Na het vmbo wil Sem een beroepsopleiding doen. Waar kan hij naartoe?** — *После vmbo Сем хочет получить профессию. Куда он идёт?*
+- ✅ A. Naar het mbo. — В mbo (среднее профобразование).
+- B. Direct naar de universiteit. — Сразу в университет.
+- C. Naar het consultatiebureau. — В детскую консультацию.
+
+**5.23. Fatima heeft het VMBO gedaan en wil een MBO-opleiding tot onderwijsassistent doen. Kan dit?** — *Фатима окончила VMBO и хочет учиться на ассистента преподавателя в MBO. Возможно?*
+- ✅ A. Waar. — Да.
+- B. Niet waar. — Нет.
+
+**5.24. Mario wil arts worden. Hij moet VWO hebben gedaan om deze opleiding te volgen.** — *Марио хочет стать врачом. Для этого нужно окончить VWO.*
+- ✅ A. Waar. — Верно.
+- B. Niet waar. — Неверно.
+
+**5.25. Wat betekenen de cijfers op het rapport?** — *Что означают оценки в табеле?*
+- A. 1 is heel goed. — 1 — отлично.
+- ✅ B. 1 is heel slecht. — 1 — очень плохо (10 — лучшая оценка).
+- C. 5 is goed. — 5 — хорошо.
+
+**5.26. "De route naar school is veilig" betekent:** — *«Дорога в школу безопасна» означает:*
+- A. Kort. — Короткая.
+- ✅ B. Zonder gevaar. — Без опасности.
+- C. Makkelijk te lopen. — Лёгкая для ходьбы.
+
 ---
 
 ## Тема 6. Instanties — Государственные организации и инстанции
